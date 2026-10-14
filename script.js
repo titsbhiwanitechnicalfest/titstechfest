@@ -206,8 +206,8 @@ const EVENTS_DATA = [
       ""
     ],
     coordinators: [
-      { name: "Prof. (Dr.) Rajesh Kumar", role: "Faculty Convener", phone: "+91 94164 XXXXX" },
-      { name: "Aditya Soni", role: "Student Lead", phone: "+91 98128 XXXXX" }
+      { name: "DR. RAJEEV SHARMA", role: "ASSISTANT PROFESSOR", phone: "+91 90506 10270" },
+      { name: "Mr. S.K. Jha", role: "Student Lead", phone: "+91 94161 61480" }
     ]
   },
   {
@@ -282,7 +282,7 @@ const EVENTS_DATA = [
     ],
     coordinators: [
       { name: "DR. AKHIL KAUSHIK", role: "ASSISTANT PROFESSOR", phone: "+91 94169 10303" },
-      { name: "", role: "", phone: "+91 " }
+      { name: "MR. AJIT SINGH", role: "ASSISTANT PROFESSOR", phone: "+91 " }
     ]
   },
   {
@@ -307,7 +307,7 @@ const EVENTS_DATA = [
     ],
     coordinators: [
       { name: "DR. AMANDEEP KAUR", role: "ASSISTANT PROFESSOR,HOD OF FAE", phone: "+91 89014 55383" },
-      { name: "DR. AMANDEEP KAUR", role: "ASSISTANT PROFESSOR", phone: "+91 90532 14992" }
+      { name: "MS NISHA", role: "ASSISTANT PROFESSOR", phone: "+91 90532 14992" }
     ]
   },
   {
