@@ -8,7 +8,7 @@ const EVENTS_DATA = [
   // --- SCHOOL EVENTS: TECHNICAL ---
   {
     id: "sch-science-model",
-    title: "Science Model Exhibition",
+    title: "Science Model",
     category: "school",
     subCategory: "tech",
     badgeLabel: "School • Technical",
@@ -83,7 +83,7 @@ const EVENTS_DATA = [
   },
   {
     id: "sch-debate",
-    title: "Techno-Debate (War of Words)",
+    title: "Debate",
     category: "school",
     subCategory: "tech",
     badgeLabel: "School • Technical",
@@ -134,39 +134,14 @@ const EVENTS_DATA = [
 
   // --- SCHOOL EVENTS: CULTURAL ---
   {
-    id: "sch-dancing",
-    title: "School Dancing Showcase",
+    id: "sch-singing-dance",
+    title: "Singing & Dance",
     category: "school",
     subCategory: "cultural",
     badgeLabel: "School • Cultural",
-    icon: "fa-person-chalkboard",
+    icon: "fa-music",
     color: "#ff2a85",
-    summary: "Set the stage on fire with rhythmic grace, storytelling, and high-energy choreography spanning classical, contemporary, and folk dance. Mesmerize the audience with costume artistry and synchrony. Detailed stage slot timings, audio console check-in, and green room details: Coming Soon.",
-    eligibility: "Coming Soon",
-    teamSize: "Coming Soon",
-    timing: "Coming Soon",
-    venue: "Coming Soon",
-    prizes: "Coming Soon",
-    rounds: [
-      "",
-    ],
-    rules: [
-      ""
-    ],
-    coordinators: [
-      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
-      { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
-    ]
-  },
-  {
-    id: "sch-singing",
-    title: "School Singing Melody",
-    category: "school",
-    subCategory: "cultural",
-    badgeLabel: "School • Cultural",
-    icon: "fa-microphone",
-    color: "#ff6b35",
-    summary: "Enthrall the audience with vocal brilliance, melody, and rhythm across Indian classical, semi-classical, Bollywood, and Western genres. Sing solo or with an acoustic accompanist. Detailed soundcheck slots, performance line-up, and stage timings: Coming Soon.",
+    summary: "A vibrant fusion of vocal melody and electrifying choreography! Showcase your talent in solo or group singing (Indian classical, Bollywood, Western, semi-classical) and dance performances (classical, contemporary, folk, hip-hop). Enthrall the audience with vocal brilliance, rhythmic grace, and stage presence. Detailed slot timings, audio console check-in, and stage schedule: Coming Soon.",
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
@@ -212,7 +187,7 @@ const EVENTS_DATA = [
   },
   {
     id: "clg-startup-pitch",
-    title: "Startup Vision Pitch",
+    title: "Vision Pitch",
     category: "college",
     subCategory: "tech",
     badgeLabel: "College • Entrepreneurship",
@@ -237,7 +212,7 @@ const EVENTS_DATA = [
   },
   {
     id: "clg-treasure-hunt",
-    title: "Tech Treasure Hunt",
+    title: "Treasure Hunt",
     category: "college",
     subCategory: "tech",
     badgeLabel: "College • Adventure",
@@ -262,7 +237,7 @@ const EVENTS_DATA = [
   },
   {
     id: "clg-gaming",
-    title: "LAN Gaming Arena",
+    title: "Online Gaming",
     category: "college",
     subCategory: "tech",
     badgeLabel: "College • E-Sports",
@@ -312,7 +287,7 @@ const EVENTS_DATA = [
   },
   {
     id: "clg-nukkad-natak",
-    title: "Nukkad Natak (Street Play)",
+    title: "Nukkad Natak",
     category: "college",
     subCategory: "cultural",
     badgeLabel: "College • Dramatic Arts",
@@ -336,14 +311,14 @@ const EVENTS_DATA = [
     ]
   },
   {
-    id: "clg-dance",
-    title: "Solo & Group Dance Battle",
+    id: "clg-singing-dance",
+    title: "Solo & Group Dance",
     category: "college",
     subCategory: "cultural",
     badgeLabel: "College • Cultural",
-    icon: "fa-fire",
+    icon: "fa-music",
     color: "#ff6b35",
-    summary: "Unleash untamed rhythm, explosive footwork, and gravity-defying synchronized moves. Compete in Solo Showdowns and Group Crew Battles across Western, Hip-Hop, Contemporary, and Fusion styles. Detailed music submission deadlines, performance order, and stage slots: Coming Soon.",
+    summary: "Set the stage on fire in solo dance showdowns and crew battles across Hip-Hop, Contemporary, and Fusion styles. Celebrate rhythm, and synchronized moves.ss",
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
@@ -359,6 +334,31 @@ const EVENTS_DATA = [
       { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
       { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
     ]
+  },
+  {
+    id: "clg-food-stall",
+    title: "Food Stalls",
+    category: "college",
+    subCategory: "cultural",
+    badgeLabel: "College • Cultural",
+    icon: "fa-utensils",
+    color: "#ff9f43",
+    summary: "Showcase your culinary creativity, entrepreneurial spirit, and food presentation skills! Set up attractive stalls featuring regional delicacies, innovative street snacks, beverages, and desserts. Stalls are evaluated on hygiene, flavor, creative branding, and sales strategy. Detailed stall dimensions, power/water points, and cooking guidelines: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
+    rounds: [
+      "",
+    ],
+    rules: [
+      ""
+    ],
+    coordinators: [
+      { name: "DR. CHARU MANI", role: "ASSISTANT PROFESSOR", phone: "+91 79889 63546" },
+      { name: "MS. ANJU", role: "ASSISTANT PROFESSOR", phone: "+91 89300 26571" }
+    ]
   }
 ];
 
@@ -366,6 +366,7 @@ const EVENTS_DATA = [
 document.addEventListener("DOMContentLoaded", () => {
   initParticleCanvas();
   initCountdown();
+  updateFilterTabCounts();
   renderEvents("all");
   setupEventListeners();
   populateRegistrationEventSelect();
@@ -406,6 +407,21 @@ function initCountdown() {
 
   updateTimer();
   setInterval(updateTimer, 1000);
+}
+
+// Update Filter Tab Badge Counts
+function updateFilterTabCounts() {
+  const allCount = EVENTS_DATA.length;
+  const schoolCount = EVENTS_DATA.filter(e => e.category === "school").length;
+  const collegeCount = EVENTS_DATA.filter(e => e.category === "college").length;
+
+  const allTab = document.querySelector('.filter-tab[data-filter="all"]');
+  const schoolTab = document.querySelector('.filter-tab[data-filter="school"]');
+  const collegeTab = document.querySelector('.filter-tab[data-filter="college"]');
+
+  if (allTab) allTab.innerHTML = `<i class="fa-solid fa-border-all"></i> All Events (${allCount})`;
+  if (schoolTab) schoolTab.innerHTML = `<i class="fa-solid fa-school"></i> School Level (${schoolCount})`;
+  if (collegeTab) collegeTab.innerHTML = `<i class="fa-solid fa-graduation-cap"></i> College Level (${collegeCount})`;
 }
 
 // 2. Render Events Grid with Filters
@@ -693,7 +709,7 @@ window.openRegistrationModal = function(arg = "") {
   if (arg && typeof arg.preventDefault === "function") {
     arg.preventDefault();
   }
-  window.open("https://www.youtube.com", "_blank");
+  window.open("https://docs.google.com/forms/d/e/1FAIpQLSd7rvJTa-CLSbjuWgRPpogAMxNs9OrcGQxs-lZOgGnDRdZXIw/viewform?usp=publish-editor", "_blank");
 };
 
 // 7. Close Modals
