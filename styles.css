@@ -55,6 +55,7 @@ body {
   pointer-events: none;
   z-index: 0;
   opacity: 0.55;
+  transform: translateZ(0);
 }
 
 /* Ambient glow blobs */
@@ -65,6 +66,8 @@ body {
   pointer-events: none;
   z-index: 0;
   opacity: 0.18;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .glow-blob-1 {
@@ -342,6 +345,7 @@ body {
   object-fit: contain;
   filter: drop-shadow(0 0 25px rgba(0, 242, 254, 0.5)) drop-shadow(0 0 45px rgba(255, 107, 53, 0.3));
   transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  will-change: transform;
   animation: logoPulse 6s ease-in-out infinite;
 }
 
@@ -1245,7 +1249,7 @@ body {
 }
 
 .faq-item.active .faq-answer {
-  max-height: 250px;
+  max-height: 500px;
   padding-bottom: 20px;
 }
 
@@ -1365,6 +1369,19 @@ body {
 .form-textarea {
   resize: vertical;
   min-height: 110px;
+}
+
+.form-row-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.modal-form-actions {
+  margin-top: 25px;
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
 }
 
 /* Footer */
@@ -1609,6 +1626,19 @@ body {
   border-radius: 12px;
 }
 
+.ticket-footer-meta {
+  margin-top: 20px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.15);
+  padding-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 /* Notification Toast */
 .toast-msg {
   position: fixed;
@@ -1646,10 +1676,12 @@ body {
 
 @keyframes logoPulse {
   0%, 100% {
-    filter: drop-shadow(0 0 25px rgba(0, 242, 254, 0.45)) drop-shadow(0 0 40px rgba(255, 107, 53, 0.25));
+    transform: scale(1);
+    opacity: 0.95;
   }
   50% {
-    filter: drop-shadow(0 0 40px rgba(0, 242, 254, 0.75)) drop-shadow(0 0 60px rgba(255, 107, 53, 0.45));
+    transform: scale(1.02);
+    opacity: 1;
   }
 }
 
@@ -1667,43 +1699,404 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* Navigation Bar & Mobile Menu */
+  .navbar {
+    height: 72px;
+  }
+  .nav-container {
+    height: 72px;
+    padding: 0 1.2rem;
+  }
   .nav-links {
     position: fixed;
-    top: 80px;
+    top: 72px;
     left: 0;
     width: 100%;
+    max-height: calc(100vh - 72px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     background: rgba(10, 12, 20, 0.98);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border-glow);
-    padding: 30px;
+    padding: 24px 20px 36px;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    gap: 16px;
     transform: translateY(-150%);
-    transition: transform 0.35s ease;
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.7);
   }
   
   .nav-links.open {
     transform: translateY(0);
   }
   
+  .nav-link {
+    font-size: 1.05rem;
+    padding: 8px 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-cta-btn {
+    width: 100%;
+    max-width: 260px;
+    justify-content: center;
+    padding: 12px 20px;
+  }
+
   .mobile-menu-btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
   }
-  
+
+  /* Container & Sections */
+  .container {
+    padding: 0 1rem;
+  }
+
+  .section {
+    padding: 55px 0;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+
+  .section-title {
+    font-size: clamp(1.6rem, 5.5vw, 2.2rem);
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding-top: 105px;
+    padding-bottom: 50px;
+    min-height: auto;
+  }
+
+  .fest-logo-wrapper {
+    width: 160px;
+    height: 160px;
+    margin: 10px auto 20px;
+  }
+
+  .hero-title {
+    font-size: clamp(1.8rem, 7vw, 3rem);
+  }
+
+  .hero-subtitle {
+    font-size: clamp(0.95rem, 3.5vw, 1.2rem);
+    letter-spacing: 0.08em;
+  }
+
+  .hero-college-name {
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+  }
+
+  .college-super-badge {
+    max-width: 100%;
+    padding: 6px 14px;
+    gap: 8px;
+  }
+
+  .college-super-badge span {
+    font-size: 0.8rem;
+    white-space: normal;
+    line-height: 1.3;
+  }
+
+  .hero-meta-strip {
+    gap: 10px;
+    margin-bottom: 26px;
+  }
+
+  .meta-pill {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    max-width: 100%;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  .countdown-box {
+    padding: 18px 14px;
+    margin-bottom: 28px;
+    border-radius: 16px;
+  }
+
   .timer-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
   }
-  
+
+  .timer-item {
+    padding: 10px 4px;
+    border-radius: 10px;
+  }
+
+  .timer-num {
+    font-size: 1.45rem;
+  }
+
+  .timer-lbl {
+    font-size: 0.65rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .hero-actions .btn-primary,
+  .hero-actions .btn-secondary {
+    width: 100%;
+    justify-content: center;
+    padding: 13px 20px;
+    font-size: 0.98rem;
+  }
+
+  /* Event Filter Tabs - Touch Friendly Horizontal Scroll */
+  .filter-tabs-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: 4px 2px 10px 2px;
+    gap: 8px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .filter-tabs-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-tab {
+    flex-shrink: 0;
+    padding: 8px 16px;
+    font-size: 0.85rem;
+  }
+
   .events-grid {
     grid-template-columns: 1fr;
+    gap: 18px;
   }
-  
-  .stats-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
+
+  .event-card {
+    padding: 20px 16px;
   }
-  
+
+  .event-card-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .btn-card-details,
+  .btn-card-register {
+    width: 100%;
+    padding: 11px 16px;
+  }
+
+  /* About Features */
+  .about-features {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .about-features .feature-box {
+    grid-column: span 1 !important;
+  }
+
+  .visual-shield {
+    max-width: 100%;
+    aspect-ratio: auto;
+    padding: 24px 16px;
+  }
+
+  .visual-shield img {
+    max-width: 170px;
+  }
+
+  /* Venue Map */
+  .map-container {
+    height: 300px;
+    border-radius: 16px;
+  }
+
+  /* FAQ Accordion */
+  .faq-question {
+    padding: 16px 18px;
+    font-size: 0.95rem;
+  }
+
+  .faq-answer {
+    padding: 0 18px;
+    font-size: 0.88rem;
+  }
+
+  /* Modals */
+  .modal-overlay {
+    padding: 12px;
+  }
+
+  .modal-container {
+    padding: 24px 16px;
+    border-radius: 18px;
+    max-height: 94vh;
+  }
+
+  .modal-title {
+    font-size: 1.25rem;
+    padding-right: 32px;
+  }
+
+  .modal-subtitle {
+    font-size: 0.82rem;
+    margin-bottom: 18px;
+  }
+
+  .modal-close-btn {
+    top: 14px;
+    right: 14px;
+    width: 34px;
+    height: 34px;
+    font-size: 1rem;
+  }
+
+  .form-row-2col {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .modal-form-actions {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .modal-form-actions button {
+    width: 100%;
+    justify-content: center;
+    padding: 12px 18px;
+  }
+
+  .coordinator-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 10px 14px;
+  }
+
+  /* Ticket Pass */
+  .ticket-wrapper {
+    padding: 18px 14px;
+    border-radius: 14px;
+  }
+
   .ticket-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .ticket-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .ticket-footer-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  /* Toast Notification */
+  .toast-msg {
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    max-width: calc(100% - 28px);
+    padding: 12px 18px;
+    font-size: 0.88rem;
+    text-align: center;
+  }
+
+  /* Footer */
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .clg-crest {
+    width: 40px;
+    height: 40px;
+  }
+
+  .brand-text h1 {
+    font-size: 1rem;
+  }
+
+  .brand-text p {
+    font-size: 0.65rem;
+  }
+
+  .contact-method-item {
+    gap: 12px;
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .contact-val {
+    font-size: 0.88rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  .timer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .clg-crest {
+    width: 36px;
+    height: 36px;
+  }
+
+  .brand-text h1 {
+    font-size: 0.92rem;
+  }
+
+  .brand-text p {
+    font-size: 0.6rem;
+  }
+
+  .college-super-badge {
+    padding: 5px 10px;
+  }
+
+  .college-super-badge span {
+    font-size: 0.72rem;
   }
 }
 

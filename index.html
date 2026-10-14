@@ -9,13 +9,14 @@
   <!-- Favicon using college logo -->
   <link rel="icon" type="image/jpeg" href="assets/clg-logo.jpg" />
 
-  <!-- Google Fonts -->
+  <!-- Google Fonts (Optimized: only required weights 400 and 700) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@500;700;800;900&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Orbitron:wght@700&display=swap" rel="stylesheet" />
 
-  <!-- Font Awesome 6 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Font Awesome 6 (Non-blocking async stylesheet) -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /></noscript>
 
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
@@ -411,7 +412,7 @@
               <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
               <div>
                 <span class="contact-label">Venue</span>
-                <p class="contact-val">TITs College Campus, Birla Colony, Bhiwani, Haryana - 127021</p>
+                <p class="contact-val">TIT&S College Campus, Birla Colony, Bhiwani, Haryana - 127021</p>
               </div>
             </div>
 
@@ -505,7 +506,7 @@
           </select>
         </div>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+        <div class="form-row-2col">
           <div class="form-group">
             <label class="form-label" for="reg-name">Participant / Lead Name *</label>
             <input type="text" id="reg-name" class="form-input" placeholder="e.g. Ananya Sen" required />
@@ -527,7 +528,7 @@
           <input type="text" id="reg-institution" class="form-input" placeholder="e.g. TIT&S Bhiwani / Vaish Model School" required />
         </div>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+        <div class="form-row-2col">
           <div class="form-group">
             <label class="form-label" for="reg-email">Email Address *</label>
             <input type="email" id="reg-email" class="form-input" placeholder="e.g. participant@gmail.com" required />
@@ -543,7 +544,7 @@
           <input type="text" id="reg-notes" class="form-input" placeholder="Brief project summary or performance details" />
         </div>
 
-        <div style="margin-top: 10px; display: flex; gap: 14px; justify-content: flex-end;">
+        <div class="modal-form-actions">
           <button type="button" class="btn-secondary" onclick="closeModal('registration-modal')">Cancel</button>
           <button type="submit" class="btn-primary">
             <i class="fa-solid fa-ticket"></i> Generate Official Entry Pass
@@ -565,7 +566,7 @@
     </div>
   </div>
 
-  <!-- Custom Scripts -->
-  <script src="script.js"></script>
+  <!-- Custom Scripts (Deferred) -->
+  <script src="script.js" defer></script>
 </body>
 </html>

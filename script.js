@@ -14,21 +14,17 @@ const EVENTS_DATA = [
     badgeLabel: "School • Technical",
     icon: "fa-atom",
     color: "#00f2fe",
-    summary: "Showcase groundbreaking working or static models solving real-world challenges in clean energy, smart automation, robotics, and applied sciences.",
-    eligibility: "Classes ",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "Trophies + Certificates",
+    summary: "Showcase groundbreaking working or static models solving real-world challenges in clean energy, smart automation, robotics, waste recycling, and applied sciences. Present your prototype to an expert jury. Detailed slot timings, display booth numbers, and exhibition hall allocation: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      "Round 1: ",
-      "Round 2: "
+      "",
     ],
     rules: [
-      "Working or still models must be accompanied by an informative chart/display banner.",
-      "Dangerous chemicals, open fire, or hazardous materials are strictly prohibited.",
-      "Power supply sockets (220V) will be provided upon prior request in the registration form.",
-      "Jury decisions regarding innovation, functionality, and presentation are final."
+      ""
     ],
     coordinators: [
       { name: "DR. SATISH KHATAK", role: "ASSISTANT PROFESSOR", phone: "+91 98121 79804" },
@@ -43,20 +39,17 @@ const EVENTS_DATA = [
     badgeLabel: "School • Technical",
     icon: "fa-brain",
     color: "#4facfe",
-    summary: "Test your wits, logical acumen, and scientific trivia in an adrenaline-pumping multi-round quiz showdown.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Test your wits, logical acumen, and scientific trivia across physics, chemistry, mathematics, emerging technologies, and everyday science in an adrenaline-pumping showdown. Detailed quiz arena, buzzer formats, and schedule: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      "Round 1: ",
-      "Round 2: "
+      "",
     ],
     rules: [
-      "No electronic gadgets or smartphones are allowed inside the quiz hall.",
-      "Each question in the buzzer round carries +10 for correct and -5 for incorrect answers.",
-      "Tie-breaker questions will be administered if scores are tied."
+      ""
     ],
     coordinators: [
       { name: "DR. ANU KATHURIA", role: "ASSISTANT PROFESSOR", phone: "+91 83687 47838" },
@@ -71,20 +64,17 @@ const EVENTS_DATA = [
     badgeLabel: "School • Technical",
     icon: "fa-palette",
     color: "#a78bfa",
-    summary: "Blend artistic ingenuity with scientific themes. Express future technologies, green planet innovations, or smart cities on canvas.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Blend artistic ingenuity with scientific themes. Express future technologies, green planet innovations, artificial intelligence, or smart cities on canvas. Detailed theme announcement, drawing hall allocation, and presentation timings: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      ""
+      "",
     ],
     rules: [
-      "Standard drawing sheets will be provided by the institute.",
-      "Participants must bring their own colors, brushes, and sketching tools.",
-      "Themes will be announced 15 minutes prior (e.g., AI for Climate Action, Future of Space Exploration).",
-      "Plagiarism or pre-drawn artwork will lead to immediate disqualification."
+      ""
     ],
     coordinators: [
       { name: "DR. ARCHANA SINGH PARMAR", role: "ASSISTANT PROFESSOR", phone: "+91 94681 08572" },
@@ -99,21 +89,17 @@ const EVENTS_DATA = [
     badgeLabel: "School • Technical",
     icon: "fa-comments",
     color: "#f59e0b",
-    summary: "Engage in intellectual combat on ethics, artificial intelligence, robotics, and the socio-economic impacts of next-gen technology.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Engage in structured intellectual combat on ethics, artificial intelligence, robotics, and the socio-economic impacts of next-gen technology. Stand your ground, present compelling arguments, and rebut opposing views. Detailed speaking order, rebuttal guidelines, and schedule: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      "Round 1: ",
-      "Round 2: "
+      "",
     ],
     rules: [
-      "Topic: 'Artificial General Intelligence: A Boon or Existential Threat to Humanity?'",
-      "Medium of expression: English or Hindi.",
-      "No offensive or unparliamentary language will be tolerated.",
-      "Evaluation on arguments, factual validity, diction, and rebuttal poise."
+      ""
     ],
     coordinators: [
       { name: "MS. URSHITA BANSAL", role: "ASSISTANT PROFESSOR", phone: "+91 87083 56882" },
@@ -128,19 +114,17 @@ const EVENTS_DATA = [
     badgeLabel: "School • Technical",
     icon: "fa-feather",
     color: "#2ecc71",
-    summary: "Pen down articulate thoughts, visionary ideas, and structured essays on scientific breakthroughs shaping tomorrow.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Pen down articulate thoughts, visionary ideas, and structured essays on scientific breakthroughs shaping tomorrow. Demonstrate clarity of thought, vocabulary, and analytical reasoning. Detailed topic selections, word limit criteria, and room schedule: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      ""
+      "",
     ],
     rules: [
-      "Topics will be provided on the spot related to Indian Space Milestones & Renewable Energy.",
-      "Evaluation criteria: Depth of knowledge, structure, original thoughts, and vocabulary.",
-      "Use of electronic gadgets or dictionaries is strictly prohibited."
+      ""
     ],
     coordinators: [
       { name: "DR. MANOJ KR. NANDA", role: "ASSISTANT PROFESSOR", phone: "+91 96714 77197" },
@@ -157,19 +141,17 @@ const EVENTS_DATA = [
     badgeLabel: "School • Cultural",
     icon: "fa-person-chalkboard",
     color: "#ff2a85",
-    summary: "Set the stage on fire with rhythmic grace, storytelling, and high-energy choreography spanning classical, contemporary, and folk dance.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Set the stage on fire with rhythmic grace, storytelling, and high-energy choreography spanning classical, contemporary, and folk dance. Mesmerize the audience with costume artistry and synchrony. Detailed stage slot timings, audio console check-in, and green room details: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      ""
+      "",
     ],
     rules: [
-      "Audio tracks must be submitted in MP3 format on a USB drive at the registration desk by 10:00 AM.",
-      "Props are allowed; inflammable items or colors thrown on stage are not permitted.",
-      "Judging criteria: Choreography, rhythm, expressions, costume, and synchronization."
+      ""
     ],
     coordinators: [
       { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
@@ -184,22 +166,20 @@ const EVENTS_DATA = [
     badgeLabel: "School • Cultural",
     icon: "fa-microphone",
     color: "#ff6b35",
-    summary: "Enthrall the audience with vocal brilliance, melody, and rhythm across Indian classical, semi-classical, Bollywood, and Western genres.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Enthrall the audience with vocal brilliance, melody, and rhythm across Indian classical, semi-classical, Bollywood, and Western genres. Sing solo or with an acoustic accompanist. Detailed soundcheck slots, performance line-up, and stage timings: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      ""
+      "",
     ],
     rules: [
-      "Participants may sing with a backing karaoke track or with acoustic accompaniment (keyboard/guitar).",
-      "Karaoke tracks must be submitted at the sound desk prior to the event.",
-      "Judged on Sur, Taal, voice modulation, clarity, and overall stage presence."
+      ""
     ],
     coordinators: [
-     { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
+      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
       { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
     ]
   },
@@ -213,20 +193,17 @@ const EVENTS_DATA = [
     badgeLabel: "College • Flagship Tech",
     icon: "fa-microchip",
     color: "#00f2fe",
-    summary: "The pinnacle engineering innovation arena. Present your working hardware prototypes, IoT systems, AI algorithms, software apps, and textile engineering advancements.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "The flagship collegiate engineering innovation arena. Present your working hardware prototypes, IoT systems, AI algorithms, software applications, and textile engineering advancements to industry veterans and academic experts. Detailed booth allocation, power/Wi-Fi slot schedule, and viva sessions: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      "Round 1: ",
-      "Round 2: "
+      "",
     ],
     rules: [
-      "Working prototype or simulation demo is mandatory.",
-      "Teams must bring their own laptops and project hardware. Power connection and Wi-Fi will be arranged.",
-      "Evaluation on novelty, technical complexity, feasibility, industrial application, and pitch."
+      ""
     ],
     coordinators: [
       { name: "Prof. (Dr.) Rajesh Kumar", role: "Faculty Convener", phone: "+91 94164 XXXXX" },
@@ -241,19 +218,17 @@ const EVENTS_DATA = [
     badgeLabel: "College • Entrepreneurship",
     icon: "fa-rocket",
     color: "#f7b731",
-    summary: "Step into the Shark Tank! Pitch your innovative business idea, tech solution, MVP, and monetization model to esteemed angel investors and mentors.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Step into the Shark Tank! Pitch your innovative business idea, tech solution, MVP, and monetization model to esteemed angel investors, venture mentors, and business incubators. Detailed pitch deck guidelines, investor panel, and presentation slots: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      ""
+      "",
     ],
     rules: [
-      "Pitch deck must cover Problem, Solution, Market Size, Tech Stack, Revenue Model, and Team.",
-      "Submit presentation in PPTX or PDF format prior to the event.",
-      "Judged on market readiness, scalability, innovation, financial viability, and defense."
+      ""
     ],
     coordinators: [
       { name: "DR. MONIKA SHARMA", role: "ASSISTANT PROFESSOR, HOD OF MBA", phone: "+91 99961 09174" },
@@ -268,21 +243,17 @@ const EVENTS_DATA = [
     badgeLabel: "College • Adventure",
     icon: "fa-compass",
     color: "#2ecc71",
-    summary: "Decrypt ciphers, scan hidden QR markers across the historic TIT&S campus, solve coding riddles, and race against the clock to claim the ultimate bounty.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Decrypt ciphers, scan hidden QR markers across the historic TIT&S campus, solve coding riddles, and race against the clock to claim the ultimate bounty. A high-energy test of team coordination, speed, and analytical deduction. Detailed starting hub, scanner app instructions, and flag-off time: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      "Stage 1: ",
-      "Stage 2: ",
-      "Stage 3: "
+      "",
     ],
     rules: [
-      "Each team must have at least one smartphone with internet and QR scanner.",
-      "Damage to college infrastructure or entering prohibited faculty zones results in immediate elimination.",
-      "Fastest team to verify all checkpoints with correct keys wins."
+      ""
     ],
     coordinators: [
       { name: "DR. MONIKA SHARMA", role: "ASSOCIATE PROFESSOR", phone: "+91 81998 25002" },
@@ -297,20 +268,17 @@ const EVENTS_DATA = [
     badgeLabel: "College • E-Sports",
     icon: "fa-gamepad",
     color: "#ff2a85",
-    summary: "Clash in intense high-frame-rate battles across popular titles: BGMI Mobile squads, Valorant 5v5 tactical shooter, and FIFA console showdown.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Clash in intense high-frame-rate battles across popular titles: BGMI Mobile squads, Valorant 5v5 tactical shooter, and FIFA console showdown. Showcase tactical mastery, teamwork, and sharp reflexes. Detailed bracket fixtures, server settings, and match timings: Coming Soon.",
+   eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
       "",
-      ""
     ],
     rules: [
-      "Participants can bring personal gaming peripherals (mice, headphones, controllers).",
-      "Use of any third-party hacks, scripts, or emulator exploitation results in lifetime ban.",
-      "Official tournament rules and maps will be shared in the briefing at 11:00 AM."
+      ""
     ],
     coordinators: [
       { name: "DR. AKHIL KAUSHIK", role: "ASSISTANT PROFESSOR", phone: "+91 94169 10303" },
@@ -325,19 +293,17 @@ const EVENTS_DATA = [
     badgeLabel: "College • Generative Tech",
     icon: "fa-wand-magic-sparkles",
     color: "#00f2fe",
-    summary: "Harness modern Generative AI & 3D modeling! Engineer optimal multi-modal prompts, generate high-detail 3D geometry / structural designs, and see live digital manufacturing.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Harness modern Generative AI & 3D modeling! Engineer optimal multi-modal prompts, generate high-detail 3D geometry / structural designs, and see live digital manufacturing and additive slicing. Detailed software tools, workstation allocation, and theme prompts: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      "Round 1: ",
-      "Round 2: "
+      "",
     ],
     rules: [
-      "Open-source generative tools & CAD slicers will be accessible on workstation terminals.",
-      "Judged on prompt nuance, structural viability, aesthetic elegance, and manufacturing feasibility."
+      ""
     ],
     coordinators: [
       { name: "DR. AMANDEEP KAUR", role: "ASSISTANT PROFESSOR,HOD OF FAE", phone: "+91 89014 55383" },
@@ -352,19 +318,17 @@ const EVENTS_DATA = [
     badgeLabel: "College • Dramatic Arts",
     icon: "fa-masks-theater",
     color: "#f59e0b",
-    summary: "Roar on the street circle! Deliver hard-hitting satire, intense dholak beats, and thought-provoking drama addressing tech addiction, cybercrime, and social evolution.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Roar on the street circle! Deliver hard-hitting satire, intense dholak beats, and thought-provoking drama addressing tech addiction, cybercrime, and social evolution in an acoustic circle arena. Detailed circle performance order, reporting slots, and acoustic sound guidelines: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
-      ""
+      "",
     ],
     rules: [
-      "Performance must strictly be in an acoustic circle (no electronic microphones or speakers).",
-      "Traditional dholak, dafli, harmonica, and acoustic instruments are encouraged.",
-      "Vulgarity, direct religious defamation, or personal political slurs are strictly prohibited."
+      ""
     ],
     coordinators: [
       { name: "DR. GUNJAN BHAYANA", role: "ASSISTANT PROFESSOR", phone: "+91 98178 31001" },
@@ -379,20 +343,17 @@ const EVENTS_DATA = [
     badgeLabel: "College • Cultural",
     icon: "fa-fire",
     color: "#ff6b35",
-    summary: "Unleash untamed rhythm, explosive footwork, and gravity-defying synchronized moves. Compete in Solo Showdown and Group Crew Battles.",
-    eligibility: "",
-    teamSize: "",
-    timing: "",
-    venue: "",
-    prizes: "",
+    summary: "Unleash untamed rhythm, explosive footwork, and gravity-defying synchronized moves. Compete in Solo Showdowns and Group Crew Battles across Western, Hip-Hop, Contemporary, and Fusion styles. Detailed music submission deadlines, performance order, and stage slots: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Coming Soon",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
     rounds: [
       "",
-      ""
     ],
     rules: [
-      "Styles allowed: Western, Hip-Hop, Bollywood, Contemporary, Classical fusion.",
-      "Submit music tracks at the audio console before 01:00 PM.",
-      "Judged on synchronization, choreography, energy, facial expressions, and costumes."
+      ""
     ],
     coordinators: [
       { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
@@ -518,13 +479,13 @@ function renderEvents(filterType = "all", searchQuery = "") {
           <div class="meta-spec-item">
             <i class="fa-solid fa-clock"></i>
             <div>
-              <strong>${evt.timing}</strong>
+              <strong>${evt.timing || "Coming Soon"}</strong>
             </div>
           </div>
           <div class="meta-spec-item" style="grid-column: 1 / -1;">
             <i class="fa-solid fa-location-dot"></i>
             <div>
-              <strong>${evt.venue}</strong>
+              <strong>${evt.venue || "Coming Soon"}</strong>
             </div>
           </div>
         </div>
@@ -570,26 +531,64 @@ function setupEventListeners() {
   const mobileBtn = document.getElementById("mobile-menu-toggle");
   const navLinks = document.getElementById("nav-links");
   if (mobileBtn && navLinks) {
-    mobileBtn.addEventListener("click", () => {
-      navLinks.classList.toggle("open");
+    mobileBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = navLinks.classList.toggle("open");
+      const icon = mobileBtn.querySelector("i");
+      if (icon) {
+        if (isOpen) {
+          icon.classList.remove("fa-bars-staggered");
+          icon.classList.add("fa-xmark");
+        } else {
+          icon.classList.remove("fa-xmark");
+          icon.classList.add("fa-bars-staggered");
+        }
+      }
     });
-    // Close mobile menu on click
+
+    // Close mobile menu on click of any nav link
     navLinks.querySelectorAll("a").forEach(a => {
-      a.addEventListener("click", () => navLinks.classList.remove("open"));
+      a.addEventListener("click", () => {
+        navLinks.classList.remove("open");
+        const icon = mobileBtn.querySelector("i");
+        if (icon) {
+          icon.classList.remove("fa-xmark");
+          icon.classList.add("fa-bars-staggered");
+        }
+      });
+    });
+
+    // Close mobile menu when tapping outside
+    document.addEventListener("click", (e) => {
+      if (navLinks.classList.contains("open") && !navLinks.contains(e.target) && !mobileBtn.contains(e.target)) {
+        navLinks.classList.remove("open");
+        const icon = mobileBtn.querySelector("i");
+        if (icon) {
+          icon.classList.remove("fa-xmark");
+          icon.classList.add("fa-bars-staggered");
+        }
+      }
     });
   }
 
-  // Navbar scroll background change
-  window.addEventListener("scroll", () => {
-    const navbar = document.querySelector(".navbar");
-    if (navbar) {
-      if (window.scrollY > 40) {
-        navbar.classList.add("scrolled");
-      } else {
-        navbar.classList.remove("scrolled");
+  // Navbar scroll background change (throttled with rAF + passive)
+  const navbar = document.querySelector(".navbar");
+  let scrollTicking = false;
+  if (navbar) {
+    window.addEventListener("scroll", () => {
+      if (!scrollTicking) {
+        window.requestAnimationFrame(() => {
+          if (window.scrollY > 40) {
+            navbar.classList.add("scrolled");
+          } else {
+            navbar.classList.remove("scrolled");
+          }
+          scrollTicking = false;
+        });
+        scrollTicking = true;
       }
-    }
-  });
+    }, { passive: true });
+  }
 
   // Contact Form Submission
   const contactForm = document.getElementById("contact-form");
@@ -642,7 +641,7 @@ window.openEventDetailsModal = function(eventId) {
     </div>
 
     <h2 class="modal-title">${evt.title}</h2>
-    <p class="modal-subtitle"><i class="fa-solid fa-location-dot"></i> Venue: ${evt.venue} | <i class="fa-solid fa-clock"></i> Time: ${evt.timing}</p>
+    <p class="modal-subtitle"><i class="fa-solid fa-location-dot"></i> Venue: ${evt.venue || "Coming Soon"} | <i class="fa-solid fa-clock"></i> Time: ${evt.timing || "Coming Soon"}</p>
 
     <div class="event-detail-section">
       <h4><i class="fa-solid fa-circle-info"></i> Event Overview</h4>
@@ -678,7 +677,7 @@ window.openEventDetailsModal = function(eventId) {
       `).join("")}
     </div>
 
-    <div style="margin-top: 30px; display: flex; gap: 15px; justify-content: flex-end;">
+    <div class="modal-form-actions">
       <button class="btn-secondary" onclick="closeModal('event-detail-modal')">Close</button>
       <button class="btn-primary" onclick="closeModal('event-detail-modal'); openRegistrationModal('${evt.id}');">
         <i class="fa-solid fa-id-card"></i> Proceed to Register
@@ -803,13 +802,13 @@ function handleRegistrationSubmit(e) {
           </div>
         </div>
 
-        <div style="margin-top: 20px; border-top: 1px dashed rgba(255, 255, 255, 0.15); padding-top: 14px; display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; color: var(--text-dim);">
+        <div class="ticket-footer-meta">
           <span>📅 Date: 14 November 2026 | 08:30 AM</span>
           <span>📍 TIT&S Bhiwani Campus</span>
         </div>
       </div>
 
-      <div style="margin-top: 25px; display: flex; gap: 14px; justify-content: flex-end;">
+      <div class="modal-form-actions">
         <button class="btn-secondary" onclick="closeModal('ticket-modal')">Close</button>
         <button class="btn-primary" onclick="window.print()">
           <i class="fa-solid fa-print"></i> Print / Save Pass
@@ -860,32 +859,41 @@ function showToast(message) {
   }, 4500);
 }
 
-// 11. Interactive Particle / Neural Background Canvas
+// 11. Interactive Particle / Neural Background Canvas (Performance Optimized)
 function initParticleCanvas() {
   const canvas = document.getElementById("particles-canvas");
   if (!canvas) return;
 
+  // Respect prefers-reduced-motion
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    canvas.style.display = "none";
+    return;
+  }
+
   const ctx = canvas.getContext("2d");
   let width, height;
   let particles = [];
-  const particleCount = 65;
-  const maxDistance = 140;
+  // Use lower particle count to eliminate stuttering & keep 60 FPS
+  const isMobile = window.innerWidth < 768;
+  const particleCount = isMobile ? 25 : 42;
+  const maxDistance = 120;
+  const maxDistanceSq = maxDistance * maxDistance;
 
   function resize() {
     width = canvas.width = window.innerWidth;
     height = canvas.height = window.innerHeight;
   }
 
-  window.addEventListener("resize", resize);
+  window.addEventListener("resize", resize, { passive: true });
   resize();
 
   class Particle {
     constructor() {
       this.x = Math.random() * width;
       this.y = Math.random() * height;
-      this.vx = (Math.random() - 0.5) * 0.75;
-      this.vy = (Math.random() - 0.5) * 0.75;
-      this.radius = Math.random() * 2 + 1;
+      this.vx = (Math.random() - 0.5) * 0.6;
+      this.vy = (Math.random() - 0.5) * 0.6;
+      this.radius = Math.random() * 1.5 + 1;
       this.color = Math.random() > 0.4 ? "#00f2fe" : "#ff8008";
     }
 
@@ -901,8 +909,6 @@ function initParticleCanvas() {
       ctx.beginPath();
       ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
       ctx.fillStyle = this.color;
-      ctx.shadowBlur = 10;
-      ctx.shadowColor = this.color;
       ctx.fill();
     }
   }
@@ -915,13 +921,29 @@ function initParticleCanvas() {
   window.addEventListener("mousemove", (e) => {
     mouse.x = e.x;
     mouse.y = e.y;
-  });
+  }, { passive: true });
+
   window.addEventListener("mouseleave", () => {
     mouse.x = null;
     mouse.y = null;
+  }, { passive: true });
+
+  let animationFrameId;
+  let isRunning = true;
+
+  // Pause canvas when user switches tab to avoid background CPU/GPU lag
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      isRunning = false;
+      cancelAnimationFrame(animationFrameId);
+    } else if (!isRunning) {
+      isRunning = true;
+      animationFrameId = requestAnimationFrame(animate);
+    }
   });
 
   function animate() {
+    if (!isRunning) return;
     ctx.clearRect(0, 0, width, height);
 
     for (let i = 0; i < particles.length; i++) {
@@ -931,13 +953,14 @@ function initParticleCanvas() {
       for (let j = i + 1; j < particles.length; j++) {
         const dx = particles[i].x - particles[j].x;
         const dy = particles[i].y - particles[j].y;
-        const dist = Math.sqrt(dx * dx + dy * dy);
+        const distSq = dx * dx + dy * dy;
 
-        if (dist < maxDistance) {
+        if (distSq < maxDistanceSq) {
+          const dist = Math.sqrt(distSq);
           ctx.beginPath();
           ctx.moveTo(particles[i].x, particles[i].y);
           ctx.lineTo(particles[j].x, particles[j].y);
-          ctx.strokeStyle = `rgba(0, 242, 254, ${1 - dist / maxDistance * 0.8})`;
+          ctx.strokeStyle = `rgba(0, 242, 254, ${(1 - dist / maxDistance) * 0.6})`;
           ctx.lineWidth = 0.5;
           ctx.stroke();
         }
@@ -946,20 +969,21 @@ function initParticleCanvas() {
       if (mouse.x !== null) {
         const mdx = particles[i].x - mouse.x;
         const mdy = particles[i].y - mouse.y;
-        const mdist = Math.sqrt(mdx * mdx + mdy * mdy);
-        if (mdist < 120) {
+        const mdistSq = mdx * mdx + mdy * mdy;
+        if (mdistSq < 14400) { // 120 * 120
+          const mdist = Math.sqrt(mdistSq);
           ctx.beginPath();
           ctx.moveTo(particles[i].x, particles[i].y);
           ctx.lineTo(mouse.x, mouse.y);
-          ctx.strokeStyle = `rgba(255, 128, 8, ${1 - mdist / 120})`;
+          ctx.strokeStyle = `rgba(255, 128, 8, ${(1 - mdist / 120) * 0.8})`;
           ctx.lineWidth = 0.8;
           ctx.stroke();
         }
       }
     }
 
-    requestAnimationFrame(animate);
+    animationFrameId = requestAnimationFrame(animate);
   }
 
-  animate();
+  animationFrameId = requestAnimationFrame(animate);
 }
