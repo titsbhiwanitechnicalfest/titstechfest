@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TIT TECHFEST 2026 | The Technological Institute of Textile & Sciences, Bhiwani</title>
+  <meta name="description" content="Official website for TIT TECHFEST 2026 at The Technological Institute of Textile & Sciences (TIT&S) Bhiwani on 14 November 2026. Events for schools and colleges." />
+  
+  <!-- Favicon using college logo -->
+  <link rel="icon" type="image/jpeg" href="assets/clg-logo.jpg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@500;700;800;900&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Background Particle Network Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Ambient Light Effects -->
+  <div class="glow-blob glow-blob-1"></div>
+  <div class="glow-blob glow-blob-2"></div>
+  <div class="glow-blob glow-blob-3"></div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-branding">
+        <div class="nav-logos">
+          <img src="assets/clg-logo.jpg" alt="TIT&S College Crest" class="clg-crest" title="The Technological Institute of Textile & Sciences (Since 1943)" />
+          
+        </div>
+        <div class="brand-text">
+          <h1>TIT TECHFEST</h1>
+          <p>TIT&S Bhiwani • Estd. 1943</p>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#events" class="nav-link">Events</a></li>
+        <li><a href="#venue" class="nav-link">Venue</a></li>
+        <li><a href="#faqs" class="nav-link">FAQs</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="nav-cta-btn" onclick="openRegistrationModal(event)">
+            <i class="fa-solid fa-bolt"></i> Register Now
+          </a>
+        </li>
+      </ul>
+
+      <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-content">
+      
+      <!-- College Super Badge -->
+      <div class="college-super-badge">
+        <img src="assets/clg-logo.jpg" alt="TIT Logo" />
+        <span>The Technological Institute of Textile & Sciences, Bhiwani</span>
+      </div>
+
+      <!-- Techfest Logo Display -->
+      <div class="fest-logo-wrapper">
+        <img src="assets/techfest-logo.jpg" alt="TIT Techfest Official Logo" class="fest-logo-img" />
+      </div>
+
+      <!-- Main Event Title -->
+      <h1 class="hero-title text-gradient-tech">TIT TECHFEST 2026</h1>
+      <p class="hero-subtitle">Ignite Innovation • Weave The Future</p>
+
+      <p class="hero-college-name">
+        Annual Inter-School & Inter-Collegiate Mega Technical and Cultural Carnival celebrating innovation, engineering artistry, and youth talents across Northern India.
+      </p>
+
+      <!-- Key Event Meta Strip -->
+      <div class="hero-meta-strip">
+        <div class="meta-pill highlight">
+          <i class="fa-solid fa-calendar-day"></i>
+          <span><strong>14 November 2026</strong> (Saturday)</span>
+        </div>
+        <div class="meta-pill">
+          <i class="fa-solid fa-location-dot"></i>
+          <span><strong>TIT&S College Campus</strong>, Bhiwani</span>
+        </div>
+        <div class="meta-pill">
+          <i class="fa-solid fa-envelope"></i>
+          <span>titsbhiwanitechnicalfest@gmail.com</span>
+        </div>
+      </div>
+
+      <!-- Live Countdown Clock -->
+      <div class="countdown-box">
+        <div class="countdown-heading">
+          <i class="fa-solid fa-stopwatch"></i> Countdown to Grand Inauguration
+        </div>
+        <div class="timer-grid">
+          <div class="timer-item">
+            <span class="timer-num" id="days">00</span>
+            <span class="timer-lbl">Days</span>
+          </div>
+          <div class="timer-item">
+            <span class="timer-num" id="hours">00</span>
+            <span class="timer-lbl">Hours</span>
+          </div>
+          <div class="timer-item">
+            <span class="timer-num" id="minutes">00</span>
+            <span class="timer-lbl">Minutes</span>
+          </div>
+          <div class="timer-item">
+            <span class="timer-num" id="seconds">00</span>
+            <span class="timer-lbl">Seconds</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Actions -->
+      <div class="hero-actions">
+        <a href="#events" class="btn-primary">
+          <i class="fa-solid fa-compass"></i> Explore All Events
+        </a>
+        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="btn-secondary" onclick="openRegistrationModal(event)">
+          <i class="fa-solid fa-bolt"></i> Register Now
+        </a>
+      </div>
+
+    </div>
+  </section>
+  <!-- ABOUT SECTION -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About The Fest</span>
+        <h2 class="section-title">A Nexus of Science, Technology & Culture</h2>
+        <p class="section-desc">
+          Rooted in a historic legacy of excellence, TIT Techfest 2026 brings together dynamic minds from schools and colleges to ideate, build, and celebrate.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>The Technological Institute of Textile & Sciences</h3>
+          <p>
+            Established in <strong>1943</strong> under the visionary guidance of the Birla Education Trust, <strong>TIT&S Bhiwani</strong> has been an illustrious pioneer in technical education, engineering innovation, and research.
+          </p>
+          <p>
+            TIT Techfest 2026 embodies this eight-decade heritage by offering dual competition streams: fostering scientific inquiry among <strong>school students</strong> and challenging <strong>college technocrats</strong> with industry-grade prototypes, startup visions, and street drama.
+          </p>
+
+          <div class="about-features">
+            <div class="feature-box">
+              <i class="fa-solid fa-school"></i>
+              <div>
+                <h4>School Prodigies</h4>
+                <p>Models, Quizzes, Debates, Posters & Arts</p>
+              </div>
+            </div>
+            <div class="feature-box">
+              <i class="fa-solid fa-laptop-code"></i>
+              <div>
+                <h4>College Innovators</h4>
+                <p>Projects, Startups, Gaming, AI & Nukkad Natak</p>
+              </div>
+            </div>
+            <div class="feature-box" style="grid-column: span 2;">
+              <i class="fa-solid fa-trophy"></i>
+              <div>
+                <h4>Trophies and Certificate</h4>
+                <p>National recognition, merit awards & participation certificates</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual">
+          <div class="visual-shield">
+            <img src="assets/techfest-logo.jpg" alt="TIT Techfest Emblem" />
+            <h4 style="font-family: var(--font-heading); color: #fff; font-size: 1.2rem; margin-bottom: 6px;">TIT TECHFEST 2026</h4>
+            <p style="color: var(--text-muted); font-size: 0.88rem; max-width: 320px;">
+              Featuring the Make-in-India gear motif, symbolising mechanical power, computing circuits, and sustainable biotechnology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS SECTION -->
+  <section class="section" id="events" style="background: rgba(8, 10, 18, 0.6);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Grand Arenas</span>
+        <h2 class="section-title">Explore Competitions & Events</h2>
+        <p class="section-desc">
+          Choose your arena. Filter between School events and College events, or search by event name.
+        </p>
+      </div>
+
+      <!-- Controls: Tabs and Search -->
+      <div class="events-controls">
+        <div class="filter-tabs-wrapper">
+          <button class="filter-tab active" data-filter="all">
+            <i class="fa-solid fa-border-all"></i> All Events (14)
+          </button>
+          <button class="filter-tab" data-filter="school">
+            <i class="fa-solid fa-school"></i> School Level (7)
+          </button>
+          <button class="filter-tab" data-filter="college">
+            <i class="fa-solid fa-graduation-cap"></i> College Level (7)
+          </button>
+          <button class="filter-tab" data-filter="tech">
+            <i class="fa-solid fa-microchip"></i> Technical Only
+          </button>
+          <button class="filter-tab" data-filter="cultural">
+            <i class="fa-solid fa-masks-theater"></i> Cultural & Arts
+          </button>
+        </div>
+
+        <div class="events-search-bar">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="event-search-input" class="search-input" placeholder="Search event by name, domain, or venue..." />
+        </div>
+      </div>
+
+      <!-- Dynamic Event Cards Grid -->
+      <div class="events-grid" id="events-grid">
+        <!-- Injected via script.js -->
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- VENUE & CAMPUS SECTION -->
+  <section class="section" id="venue" style="background: rgba(8, 10, 18, 0.6);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Campus Destination</span>
+        <h2 class="section-title">Venue & Campus Location</h2>
+        <p class="section-desc">
+          Located in the educational heartland of Haryana, TIT&S boasts state-of-the-art auditoriums, specialized laboratories, and vibrant green lawns.
+        </p>
+      </div>
+
+      <div class="venue-grid">
+        <div class="venue-info-box">
+          <h3>TIT&S College Campus, Bhiwani</h3>
+          <p>
+            Join us at our sprawling historic campus equipped with cutting-edge tech labs, advanced computing infrastructure, air-conditioned seminar halls, and open amphitheaters.
+          </p>
+
+          <ul class="venue-details-list">
+            <li class="venue-detail-item">
+              <div class="venue-detail-icon"><i class="fa-solid fa-map-pin"></i></div>
+              <div class="venue-detail-text">
+                <h4>Address</h4>
+                <p>The Technological Institute of Textile & Sciences, Birla Colony, Bhiwani, Haryana - 127021</p>
+              </div>
+            </li>
+            <li class="venue-detail-item">
+              <div class="venue-detail-icon"><i class="fa-solid fa-train"></i></div>
+              <div class="venue-detail-text">
+                <h4>Accessibility</h4>
+                <p>Only 1.5 km from Bhiwani Junction Railway Station & 4.7 km from Bhiwani New Bus Stand.</p>
+              </div>
+            </li>
+            <li class="venue-detail-item">
+              <div class="venue-detail-icon"><i class="fa-solid fa-building-columns"></i></div>
+              <div class="venue-detail-text">
+                <h4>Key Event Zones</h4>
+                <p>Main Auditorium</p>
+              </div>
+            </li>
+            <li class="venue-detail-item">
+              <div class="venue-detail-icon"><i class="fa-solid fa-square-parking"></i></div>
+              <div class="venue-detail-text">
+                <h4>Parking & Security</h4>
+                <p>Designated parking areas for school buses, college vans, and private vehicles at Gate No. 2.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="map-container">
+          <iframe 
+            src="https://maps.google.com/maps?q=The+Technological+Institute+of+Textile+and+Sciences+Bhiwani&output=embed"
+            title="TIT&S Bhiwani Campus Location" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQS SECTION -->
+  <section class="section" id="faqs">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Clarifications</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">
+          Everything you need to know about eligibility, team requirements, registrations, and event guidelines.
+        </p>
+      </div>
+
+      <div class="faq-grid">
+        
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>Who is eligible to participate in TIT TECHFEST 2026?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            TIT Techfest features dual dedicated categories:
+            <br>• <strong>School Section:</strong> Open to students of Classes <strong>11th&12th</strong> for both technical (Science Model, Quiz, Poster, Debate, Essay) and cultural events (Dance, Singing).
+            <br>• <strong>College Section:</strong> Open to all undergraduate/postgraduate engineering, diploma, polytechnic, science, and arts students (B.Tech, M.Tech, BCA, MCA, B.Sc, etc.).
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is there any registration fee for participants?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            Registration is <strong>completely FREE</strong> of charge! The Technological Institute of Textile & Sciences is organizing this mega fest to promote innovation, scientific curiosity, and artistic talent among young minds.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Will all participants receive certificates and food?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            Yes! Every registered participant who attends and presents will be awarded an official <strong>Certificate of Participation</strong>. Winners and runners-up will receive prizes, trophies, and <strong>Certificates of Merit</strong>. Complimentary lunch and refreshments are provided to all participants and accompanying teacher escorts.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can a student participate in multiple events?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            Yes, provided the event schedules do not clash. For example, a student can participate in a morning session event (such as Science Model or Project Display) and an afternoon event (such as Treasure Hunt or Nukkad Natak).
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What documents should we bring on the day of the fest?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            Participants must carry:
+            <br>1. Official School / College Student Identity Card.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT US SECTION -->
+  <section class="section" id="contact" style="background: rgba(8, 10, 18, 0.6);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact & Helpdesk</h2>
+        <p class="section-desc">
+          Have queries about rules, registrations, or campus logistics? Our festival organizing committee is here to assist you.
+        </p>
+      </div>
+
+      
+
+          <div class="contact-methods">
+            <div class="contact-method-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span class="contact-label">Official Fest Email</span>
+                <a href="mailto:titsbhiwanitechnicalfest@gmail.com" class="contact-val">titsbhiwanitechnicalfest@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-method-item">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <span class="contact-label">Central Helpdesk Numbers</span>
+                <p class="contact-val">+91 94160 54321 / +91 98120 12345</p>
+              </div>
+            </div>
+
+            <div class="contact-method-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span class="contact-label">Venue</span>
+                <p class="contact-val">TITs College Campus, Birla Colony, Bhiwani, Haryana - 127021</p>
+              </div>
+            </div>
+
+            <div class="contact-method-item">
+              <div class="contact-icon"><i class="fa-solid fa-calendar-check"></i></div>
+              <div>
+                <span class="contact-label">Date of Fest</span>
+                <p class="contact-val" style="color: var(--accent-orange);">14 November 2026 (Reporting: 09:00 AM)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logos">
+            <img src="assets/clg-logo.jpg" alt="TIT College Crest" style="width: 44px; height: 44px; border-radius: 50%; border: 2px solid #e5a93b; background: #fff;" />
+            <img src="assets/techfest-logo.jpg" alt="TIT Techfest Emblem" style="width: 48px; height: 48px; object-fit: contain;" />
+            <div>
+              <h3 style="font-family: var(--font-heading); font-size: 1.15rem; color: #fff;">TIT TECHFEST 2026</h3>
+              <p style="font-size: 0.72rem; color: var(--accent-cyan); text-transform: uppercase;">TIT&S Bhiwani • Since 1943</p>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Organized by The Technological Institute of Textile & Sciences, Bhiwani. Inspiring minds, nurturing technological breakthroughs, and celebrating cultural brilliance since 1943.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About TIT&S</a></li>
+            <li><a href="#events">School Events</a></li>
+            <li><a href="#events">College Events</a></li>
+            <li><a href="#venue">Venue Map</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Official Contact</h4>
+          <ul class="footer-links">
+            <li style="color: var(--text-muted); font-size: 0.88rem;"><i class="fa-solid fa-envelope" style="color: var(--accent-cyan); margin-right: 8px;"></i> titsbhiwanitechnicalfest@gmail.com</li>
+            <li style="color: var(--text-muted); font-size: 0.88rem;"><i class="fa-solid fa-location-dot" style="color: var(--accent-orange); margin-right: 8px;"></i> TITs College Campus, Bhiwani</li>
+            <li style="color: var(--text-muted); font-size: 0.88rem;"><i class="fa-solid fa-calendar-day" style="color: #ffc837; margin-right: 8px;"></i> 14 November 2026</li>
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+  </footer>
+
+  <!-- MODAL 1: EVENT DETAILS & RULES MODAL -->
+  <div class="modal-overlay" id="event-detail-modal">
+    <div class="modal-container">
+      <button class="modal-close-btn" onclick="closeModal('event-detail-modal')" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="event-detail-body">
+        <!-- Content injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: REGISTRATION FORM MODAL -->
+  <div class="modal-overlay" id="registration-modal">
+    <div class="modal-container">
+      <button class="modal-close-btn" onclick="closeModal('registration-modal')" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div style="text-align: center; margin-bottom: 24px;">
+        <img src="assets/techfest-logo.jpg" alt="Logo" style="width: 60px; height: 60px; object-fit: contain; margin-bottom: 10px;" />
+        <h2 class="modal-title">Event Registration Portal</h2>
+        <p class="modal-subtitle">TIT Techfest 2026 • 14 November 2026 • TIT&S Bhiwani</p>
+      </div>
+
+      <form id="registration-form" style="display: flex; flex-direction: column; gap: 16px;">
+        <div class="form-group">
+          <label class="form-label" for="reg-event">Select Competition / Event *</label>
+          <select id="reg-event" class="form-select" required>
+            <!-- Injected via script.js -->
+          </select>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label class="form-label" for="reg-name">Participant / Lead Name *</label>
+            <input type="text" id="reg-name" class="form-input" placeholder="e.g. Ananya Sen" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="reg-team-size">Team Size *</label>
+            <select id="reg-team-size" class="form-select" required>
+              <option value="1">Solo (1 Participant)</option>
+              <option value="2">2 Members</option>
+              <option value="3">3 Members</option>
+              <option value="4">4 Members</option>
+              <option value="5+">5+ Members (Group/Nukkad/Crew)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="reg-institution">School or College Name *</label>
+          <input type="text" id="reg-institution" class="form-input" placeholder="e.g. TIT&S Bhiwani / Vaish Model School" required />
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label class="form-label" for="reg-email">Email Address *</label>
+            <input type="email" id="reg-email" class="form-input" placeholder="e.g. participant@gmail.com" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="reg-phone">WhatsApp / Mobile Number *</label>
+            <input type="tel" id="reg-phone" class="form-input" placeholder="e.g. +91 98765 43210" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="reg-notes">Project Title / Theme / Song Info (Optional)</label>
+          <input type="text" id="reg-notes" class="form-input" placeholder="Brief project summary or performance details" />
+        </div>
+
+        <div style="margin-top: 10px; display: flex; gap: 14px; justify-content: flex-end;">
+          <button type="button" class="btn-secondary" onclick="closeModal('registration-modal')">Cancel</button>
+          <button type="submit" class="btn-primary">
+            <i class="fa-solid fa-ticket"></i> Generate Official Entry Pass
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODAL 3: TICKET PASS CONFIRMATION MODAL -->
+  <div class="modal-overlay" id="ticket-modal">
+    <div class="modal-container">
+      <button class="modal-close-btn" onclick="closeModal('ticket-modal')" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="ticket-body">
+        <!-- Ticket injected dynamically upon form submission -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
