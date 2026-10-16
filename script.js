@@ -134,14 +134,136 @@ const EVENTS_DATA = [
 
   // --- SCHOOL EVENTS: CULTURAL ---
   {
+    id: "sch-hindi-poetry",
+    title: "Hindi Poetry",
+    category: "school",
+    subCategory: "cultural",
+    badgeLabel: "School • Cultural",
+    icon: "fa-feather-pointed",
+    color: "#e056fd",
+    summary: "Express emotions, patriotic fervor, literary rhythm, and artistic storytelling through Hindi poetry recitation (काव्य पाठ). Present original compositions or celebrate classical works with expressive modulation, diction, and passion. Detailed time limits, judging criteria, and schedule: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Solo (1 Participant)",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
+    rounds: [
+      "",
+    ],
+    rules: [
+      "Only one participant per school is allowed.",
+      "Poetry can be self-composed or from known poets.",
+      "Self-composed poetry is preferred.",
+      "Language must be Hindi only.",
+      "Time limit: 3–4 minutes.",
+      "Offensive or inappropriate content is not allowed.",
+    ],
+    coordinators: [
+      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
+      { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
+    ]
+  },
+  {
+    id: "sch-english-poetry",
+    title: "English Poetry",
+    category: "school",
+    subCategory: "cultural",
+    badgeLabel: "School • Cultural",
+    icon: "fa-book-open",
+    color: "#38ef7d",
+    summary: "Captivate the audience with eloquent verses, lyrical cadence, and English poetic recitation. Deliver original compositions or celebrate legendary poetry with poise, intonation, and emotional depth. Detailed time limits, judging criteria, and schedule: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Solo (1 Participant)",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
+    rounds: [
+      "",
+    ],
+    rules: [
+      "Only one participant per school is allowed.",
+      "Poetry can be self-composed or from known poets.",
+      "Self-composed poetry is preferred.",
+      "Language must be English only.",
+      "Time limit: 3–4 minutes.",
+      "Offensive or inappropriate content is not allowed.",
+    ],
+    coordinators: [
+      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
+      { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
+    ]
+  },
+  {
+    id: "sch-mono-acting",
+    title: "Mono Acting",
+    category: "school",
+    subCategory: "cultural",
+    badgeLabel: "School • Cultural",
+    icon: "fa-masks-theater",
+    color: "#ff7675",
+    summary: "Command the stage as a solo performer! Portray impactful characters, dramatic expressions, and gripping theatrical dialogues. A true test of voice modulation, emotional depth, expressions, and theatrical charisma. Detailed time limits, prop guidelines, and schedule: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Solo (1 Participant)",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
+    rounds: [
+      "",
+    ],
+    rules: [
+      "Only one participant per school is allowed.",
+      "The performance may be presented in any language.",
+      "Time limit: 4–5 minutes.",
+      "Vulgar, offensive, or inappropriate content is strictly prohibited.",
+      "Props are allowed if required.",
+      "Participants must perform their act live on stage.",
+    ],
+    coordinators: [
+      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
+      { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
+    ]
+  },
+  {
+    id: "sch-solo-folk-dance",
+    title: "Folk Dance (Solo)",
+    category: "school",
+    subCategory: "cultural",
+    badgeLabel: "School • Cultural",
+    icon: "fa-drum",
+    color: "#f7b731",
+    summary: "Celebrate the vibrant folk heritage of India through traditional rhythms, expressive mudras, and colorful regional folk dances (Haryanvi, Rajasthani, Bhangra, Lavani, and more). Showcase rhythm, authentic attire, and cultural grace. Detailed track submission guidelines, time limits, and stage schedule: Coming Soon.",
+    eligibility: "Coming Soon",
+    teamSize: "Solo (1 Participant)",
+    timing: "Coming Soon",
+    venue: "Coming Soon",
+    prizes: "Coming Soon",
+    rounds: [
+      "",
+    ],
+    rules: [
+      "Only one participant per school is allowed.",
+      "Performance must be a solo folk dance.",
+      "Any Indian folk dance style is allowed.",
+      "Traditional costume is mandatory.",
+      "Time limit: 3–4 minutes.",
+      "Vulgar songs or steps are strictly prohibited.",
+      "Props are allowed if required.",
+      "Teams must bring their own music track (USB/Pen Drive).",
+    ],
+    coordinators: [
+      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
+      { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
+    ]
+  },
+  {
     id: "sch-singing-dance",
-    title: "Singing & Dance",
+    title: "Group Dance (Folk Dance) ",
     category: "school",
     subCategory: "cultural",
     badgeLabel: "School • Cultural",
     icon: "fa-music",
     color: "#ff2a85",
-    summary: "A vibrant fusion of vocal melody and electrifying choreography! Showcase your talent in solo or group singing (Indian classical, Bollywood, Western, semi-classical) and dance performances (classical, contemporary, folk, hip-hop). Enthrall the audience with vocal brilliance, rhythmic grace, and stage presence. Detailed slot timings, audio console check-in, and stage schedule: Coming Soon.",
+    summary: "Celebrate the vibrant folk heritage of India through traditional rhythms, expressive mudras, and colorful regional folk dances (Haryanvi, Rajasthani, Bhangra, Lavani, and more). Showcase rhythm, authentic attire, and cultural grace. Detailed track submission guidelines, time limits, and stage schedule: Coming Soon.",
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
@@ -151,7 +273,13 @@ const EVENTS_DATA = [
       "",
     ],
     rules: [
-      ""
+      "Each team must consist of 4 to 7 members from the same school.",
+      "Vulgar songs or inappropriate dance steps are strictly prohibited.",
+      "Time limit: 4 to 5 minutes.",
+      "The performance should be based on Bollywood style dance.",
+      "All participants must maintain decency and cultural values in their performance.",
+      "Teams must bring their own music track (USB/Pen Drive).",
+      "Participants must report on time and follow all event guidelines.",
     ],
     coordinators: [
       { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
@@ -308,31 +436,6 @@ const EVENTS_DATA = [
     coordinators: [
       { name: "DR. GUNJAN BHAYANA", role: "ASSISTANT PROFESSOR", phone: "+91 98178 31001" },
       { name: "DR. SATVIKA", role: "ASSISTANT PROFESSOR", phone: "+91 94169 10404" }
-    ]
-  },
-  {
-    id: "clg-singing-dance",
-    title: "Solo & Group Dance",
-    category: "college",
-    subCategory: "cultural",
-    badgeLabel: "College • Cultural",
-    icon: "fa-music",
-    color: "#ff6b35",
-    summary: "Set the stage on fire in solo dance showdowns and crew battles across Hip-Hop, Contemporary, and Fusion styles. Celebrate rhythm, and synchronized moves.ss",
-    eligibility: "Coming Soon",
-    teamSize: "Coming Soon",
-    timing: "Coming Soon",
-    venue: "Coming Soon",
-    prizes: "Coming Soon",
-    rounds: [
-      "",
-    ],
-    rules: [
-      ""
-    ],
-    coordinators: [
-      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
-      { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
     ]
   },
   {
@@ -662,13 +765,6 @@ window.openEventDetailsModal = function(eventId) {
     <div class="event-detail-section">
       <h4><i class="fa-solid fa-circle-info"></i> Event Overview</h4>
       <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">${evt.summary}</p>
-    </div>
-
-    <div class="event-detail-section">
-      <h4><i class="fa-solid fa-list-check"></i> Competition Structure & Rounds</h4>
-      <ul>
-        ${evt.rounds.map(r => `<li>${r}</li>`).join("")}
-      </ul>
     </div>
 
     <div class="event-detail-section">
