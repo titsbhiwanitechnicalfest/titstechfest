@@ -33,7 +33,7 @@ const EVENTS_DATA = [
   },
   {
     id: "sch-tech-quiz",
-    title: "Technical Quiz",
+    title: "Technical Quiz (Sci-Tech)",
     category: "school",
     subCategory: "tech",
     badgeLabel: "School • Technical",
@@ -44,12 +44,15 @@ const EVENTS_DATA = [
     teamSize: "Coming Soon",
     timing: "Coming Soon",
     venue: "Coming Soon",
-    prizes: "Coming Soon",
+    prizes: "First, second, and third prizes for the winning teams.Certificates of participation for all teams.",
     rounds: [
       "",
     ],
     rules: [
-      ""
+      "Eligibility: •Open to 11th and 12th-grade students from participating schools •Each school can register a team of three students for the quiz.",
+      "Quiz Format: • There will be short written MCQ test of 30-40 Minutes and top five teams shall participate in the quiz • The quiz will consist of multiple rounds with varying difficulty levels. • Questions will cover a range of Science & Technology topics of 11th and 12th level.",
+      "Competition Guidelines: • The quiz will be conducted in a friendly and competitive atmosphere. • Teams will be provided with answer sheets for each round.",
+      "Scoring:• Points will be awarded for each correct answer.• In the event of a tie, a tiebreaker round will be conducted.",
     ],
     coordinators: [
       { name: "DR. ANU KATHURIA", role: "ASSISTANT PROFESSOR", phone: "+91 83687 47838" },
@@ -89,17 +92,31 @@ const EVENTS_DATA = [
     badgeLabel: "School • Technical",
     icon: "fa-comments",
     color: "#f59e0b",
-    summary: "Engage in structured intellectual combat on ethics, artificial intelligence, robotics, and the socio-economic impacts of next-gen technology. Stand your ground, present compelling arguments, and rebut opposing views. Detailed speaking order, rebuttal guidelines, and schedule: Coming Soon.",
-    eligibility: "Coming Soon",
+    summary: "The Debate Competition aims to provide students with a platform to express their views, develop critical thinking, enhance communication skills, and engage in meaningful discussions on contemporary issues related to technology, education, society, and innovation. Students will debate on a given topic by presenting arguments either in favour of or against the motion. The activity will foster intellectual curiosity, healthy competition, and awareness of the opportunities and challenges emerging in today's technology-driven world.",
+    eligibility: "Students of Classes XI–XII",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "CR - 1, Old Block, TIT&S, Bhiwani",
     prizes: "Coming Soon",
     rounds: [
       "",
     ],
     rules: [
-      ""
+      "Topic: “Artificial Intelligence: ABoon or Threat to the Society”",
+      "Each participating school must nominate two speakers and one accompanying teacher. Both speakers must be currently enrolled in Classes IX–XII.",
+      "Each school must nominate: One speaker to speak FOR the motion. One speaker to speak AGAINST the motion.",
+      "The names, classes and other required details of both speakers must be submitted through the official registration form before the specified deadline. Any substitution after registration must be approved by the organising committee before the competition begins.",
+      "The competition will follow the conventional debate format, same motion will be debated by all participating schools.",
+      "Each school will present two speeches: one in favour of the motion and one opposing it.",
+      "Each speaker will be allotted 4 minutes to present their arguments. Rebuttal must be incorporated within the allotted 4-minute speech.",
+      "All participating schools will compete in a single round. There will be no separate preliminary or final round.",
+      "The speaking order will be determined by the organising committee and communicated to all participating schools before the competition.",
+      "For each school, the speaker FOR the motion will speak first, followed by the speaker AGAINST the motion. The next school will then present its two speakers in the same order.",
+      "Exceeding the time limit of 4 minutes would result in a penalty of 2 marks. A warning bell will sound at 3 minute and thirty seconds. A final bell will sound at the end of 4 minutes. Speakers are expected to conclude promptly when the final bell sounds.",
+      "Speeches must be relevant to the announced motion. Participants should support their arguments with logical reasoning, facts, examples, illustrations and credible evidence.",
+      "Speakers are encouraged to address and counter the arguments raised by the opposing side. Participants must use respectful and appropriate language throughout the competition. Personal attacks, derogatory remarks, discriminatory statements and offensive language will not be permitted. Speakers must challenge ideas and arguments rather than attack individuals or institutions.",
+      "Mobile phones, internet access and electronic presentations will not be permitted during speeches unless expressly authorised by the organisers.",
+      "The audience must maintain silence and refrain from interrupting speakers.",
     ],
     coordinators: [
       { name: "MS. URSHITA BANSAL", role: "ASSISTANT PROFESSOR", phone: "+91 87083 56882" },
@@ -124,7 +141,18 @@ const EVENTS_DATA = [
       "",
     ],
     rules: [
-      ""
+      "Eligibility: The competition is open to students currently studying in Class XI and XII in any recognised school. Participation shall be individual; joint submissions are not permitted.",
+      "Registration: The last date for registration is 12 November 2026. Late registrations will not be accepted. Participants must provide accurate personal and school details.",
+      "Topics of the Essay: Students can prepare on either of the following topics:\n1.When machines become intelligent, must humans become more humane?\n2.From Ancient Wisdom to Artificial Intelligence: Can India's ethical heritage guide the future?\n3.Can Development and Sustainability go Together?",
+      "Mode and Duration: The competition will be conducted in pen-and-paper mode under supervision. The allotted time will be 90 minutes. Participants must adhere strictly to the prescribed reporting time and schedule.",
+      "Word Limit and Language: The essay must contain 400–500 words and may be written in either English or Hindi. It must have an appropriate title and demonstrate clarity, coherence and logical organisation.",
+      "Stationery and Materials: Stationery and materials will be provided by the organisers. Mobile phones, smartwatches, electronic devices, books, notes, printed material and other whatsoever references are strictly prohibited during the competition.",
+      "Discipline and Conduct: Discussion, consultation or communication among participants during the writing session is strictly prohibited. All instructions issued by the invigilators must be followed, and discipline must be maintained throughout the competition.",
+      "Originality and Academic Integrity: Each essay must be the participant’s original work, written independently. Plagiarism, copying, impersonation or assistance from any other person shall not be permitted. Violations may result in disqualification.",
+      "Evaluation Criteria: Essays will be assessed by a duly constituted panel of judges on relevance to the topic, depth of understanding, originality, critical thinking, logical organisation, language proficiency, grammar, vocabulary, creativity, clarity and overall presentation.",
+      "Prizes and Certificates: Prizes and certificates will be awarded to deserving participants as determined by the organising committee. Details regarding awards and the declaration of results will be communicated through appropriate channels.",
+      "Compliance with Instructions: Participants must abide by all rules and instructions issued by TIT&S, Bhiwani. The organising committee reserves the right to modify arrangements or rules, if necessary, and its decisions on matters not covered herein shall be final.",
+      "Time-bound Submission: Participants must begin writing only after the official commencement of the competition and stop immediately when the allotted 90 minutes expire. Failure to comply with the prescribed time limits or other competition rules may invite appropriate action by the organising committee.",
     ],
     coordinators: [
       { name: "DR. MANOJ KR. NANDA", role: "ASSISTANT PROFESSOR", phone: "+91 96714 77197" },
