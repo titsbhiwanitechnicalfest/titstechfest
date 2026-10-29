@@ -18,7 +18,7 @@ const EVENTS_DATA = [
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "Tennis Court",
     prizes: "Coming Soon",
     rounds: [
       "",
@@ -53,7 +53,7 @@ const EVENTS_DATA = [
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "CR-16",
     prizes: "First, second, and third prizes for the winning teams.Certificates of participation for all teams.",
     rounds: [
       "",
@@ -81,7 +81,7 @@ const EVENTS_DATA = [
     eligibility: "Coming Soon",
     teamSize: "Max 2 students",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "CR-19",
     prizes: "•	Prizes will be awarded to the top three teams (Each Member).•	All participants will receive certificates of participation.",
     rounds: [
       "",
@@ -112,7 +112,7 @@ const EVENTS_DATA = [
     eligibility: "Students of Classes XI–XII",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "CR - 1, Old Block, TIT&S, Bhiwani",
+    venue: "CR-1",
     prizes: "Coming Soon",
     rounds: [
       "",
@@ -151,7 +151,7 @@ const EVENTS_DATA = [
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "CR-20",
     prizes: "Prizes and certificates will be awarded to deserving participants as determined by the organising committee. Details regarding awards and the declaration of results will be communicated through appropriate channels.",
     rounds: [
       "",
@@ -188,7 +188,7 @@ const EVENTS_DATA = [
     eligibility: "Coming Soon",
     teamSize: "Solo (1 Participant)",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "Auditorium",
     prizes: "Coming Soon",
     rounds: [
       "",
@@ -231,7 +231,7 @@ const EVENTS_DATA = [
     eligibility: "Coming Soon",
     teamSize: "Solo (1 Participant)",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "Auditorium",
     prizes: "Coming Soon",
     rounds: [
       "",
@@ -273,7 +273,7 @@ const EVENTS_DATA = [
     eligibility: "Coming Soon",
     teamSize: "Solo (1 Participant)",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "Auditorium",
     prizes: "Coming Soon",
     rounds: [
       "",
@@ -316,7 +316,7 @@ const EVENTS_DATA = [
     eligibility: "Coming Soon",
     teamSize: "Solo (1 Participant)",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "Auditorium",
     prizes: "Coming Soon",
     rounds: [
       "",
@@ -360,7 +360,7 @@ const EVENTS_DATA = [
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "Auditorium",
     prizes: "Coming Soon",
     rounds: [
       "",
@@ -395,7 +395,7 @@ const EVENTS_DATA = [
   // --- COLLEGE EVENTS: TECHNICAL & INNOVATION ---
   {
     id: "clg-project-display",
-    title: "Project Display",
+    title: "Project Display (TIT&S Students)",
     category: "college",
     subCategory: "tech",
     badgeLabel: "College • Flagship Tech",
@@ -405,17 +405,24 @@ const EVENTS_DATA = [
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "Tennis Court",
     prizes: "Coming Soon",
     rounds: [
       "",
     ],
     rules: [
-      ""
+      "Fill in the attached (email sent to HoD) Tech Fest 2026 – Project Display spreadsheet.",
+      "Mention the project title, brief description, student names, project guide(s), and technical requirements (electricity, tables, power points, internet, etc.).",
+      "Prepare one poster for each selected project.",
+      "Follow the approved poster template and layout shared ",
+      "Include the project title, student names, guide(s), objectives, key features, and applications.",
+      "Ensure all submitted information is accurate and complete.",
+      "Clearly specify all technical and infrastructure requirements in advance.",
+      "Follow the approved format and submit the details and posters within the stipulated timeline.",
     ],
     coordinators: [
       { name: "DR. RAJEEV SHARMA", role: "ASSISTANT PROFESSOR", phone: "+91 90506 10270" },
-      { name: "Mr. S.K. Jha", role: "Student Lead", phone: "+91 94161 61480" }
+      { name: "Sh S.K. Jha ", role: "Student Lead", phone: "+91 94161 61480" }
     ]
   },
   {
@@ -426,17 +433,26 @@ const EVENTS_DATA = [
     badgeLabel: "College • Entrepreneurship",
     icon: "fa-rocket",
     color: "#f7b731",
-    summary: "Step into the Shark Tank! Pitch your innovative business idea, tech solution, MVP, and monetization model to esteemed angel investors, venture mentors, and business incubators. Detailed pitch deck guidelines, investor panel, and presentation slots: Coming Soon.",
+    summary: "Vision Pitch is a business idea competition designed to encourage students to identify real-world problems, develop innovative business concepts, and communicate their ideas convincingly. Participants will present a startup concept to a panel of judges, who will assess its originality, practicality, market opportunity, and potential impact.",
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "CR-2",
     prizes: "Coming Soon",
     rounds: [
       "",
     ],
     rules: [
-      ""
+      "Participation may be individual or in a team of up to four members.",
+      "Each participant/team may submit one business idea.",
+      "Submit a written business pitch of no more than 500 words and a presentation of no more than 10 slides in PDF format.",
+      "Submission deadline: to be announced by the organisers.",
+      "Ideas must be the participant's/team's own work. Any external information, data, or material should be credited.",
+      "Existing business categories are permitted; participants must clearly explain their idea's differentiation, customer value, or improvement. Presenting another person's operating business or idea as one's own is not permitted.",
+      "Shortlisted teams will present live, if a screening round is used.",
+      "Only the submitted presentation may be used during the pitch. Props, demonstrations, or additional materials require prior approval.",
+      "Participants must maintain professional conduct and follow organisers' instructions.",
+      "Late submissions, plagiarism, misrepresentation, or exceeding the allotted time may result in penalties or disqualification, as communicated in advance.",
     ],
     coordinators: [
       { name: "DR. MONIKA SHARMA", role: "ASSISTANT PROFESSOR, HOD OF MBA", phone: "+91 99961 09174" },
@@ -451,17 +467,28 @@ const EVENTS_DATA = [
     badgeLabel: "College • Adventure",
     icon: "fa-compass",
     color: "#2ecc71",
-    summary: "Decrypt ciphers, scan hidden QR markers across the historic TIT&S campus, solve coding riddles, and race against the clock to claim the ultimate bounty. A high-energy test of team coordination, speed, and analytical deduction. Detailed starting hub, scanner app instructions, and flag-off time: Coming Soon.",
+    summary: "Treasure Hunt is an exciting game organised at TIT&S Bhiwani. It's just like QR Ka War.",
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "TIT JunctionSSS",
     prizes: "Coming Soon",
     rounds: [
       "",
     ],
     rules: [
-      ""
+      "How the Hunt Works 🧠",
+      "This game is a modern twist on the classic treasure hunt, where clues are hidden within QR codes.",
+    	"The Starting Line: Your team will receive your first QR code to kick off the hunt.",
+    	"Scan for the Clue: Scanning the code will reveal a unique puzzle (a poetic verse).",
+    	"Decode and Discover: Hidden within the puzzle is a clever clue pointing to your next location on campus.",
+    	"Race to the Next Point: Figure out the location, race there, and find the next QR code.",
+      "The Final Dash: Continue this cycle of scanning, decoding, and racing. The first team to solve all the puzzles and arrive at the destination will be declared the champions!",
+      "Terms and Conditions:",
+      "Team Composition: Teams must consist of four members.",
+      "Guidance: Each team will be assigned an event coordinator for assistance and to ensure fair play.",
+      "Fair Play: The use of any unfair means will lead to immediate disqualification.",
+
     ],
     coordinators: [
       { name: "DR. MONIKA SHARMA", role: "ASSOCIATE PROFESSOR", phone: "+91 81998 25002" },
@@ -476,21 +503,58 @@ const EVENTS_DATA = [
     badgeLabel: "College • E-Sports",
     icon: "fa-gamepad",
     color: "#ff2a85",
-    summary: "Clash in intense high-frame-rate battles across popular titles: BGMI Mobile squads, Valorant 5v5 tactical shooter, and FIFA console showdown. Showcase tactical mastery, teamwork, and sharp reflexes. Detailed bracket fixtures, server settings, and match timings: Coming Soon.",
+    summary: "The Free Fire Online Gaming Tournament is an exciting esports event designed to encourage competitive gaming, strategic thinking, teamwork, quick decision-making, and sportsmanship among students. The tournament aims to provide students with an engaging digital gaming experience while promoting fair play, discipline, healthy competition, and responsible gaming practices. The event will be conducted online under the supervision of the organizing committee, with match results evaluated according to the announced scoring system and tournament rules.",
    eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "IT Block ,Lab-5,6",
     prizes: "Coming Soon",
     rounds: [
       "",
     ],
     rules: [
-      ""
+      "A. Eligibility and Registration",
+      "Open to all TIT&S college students.",
+      "No registration fees.",
+      "Each team must register a team name, captain and the details requested by the organizers for all four players, including each player’s in-game name and UID.",
+      "A player can represent only one team in the tournament. Players must use the registered in-game name and must not impersonate another participant.",
+      "Participants must arrive on time and follow college entry, ID-checking and venue rules. Late entry may lead to a warning or disqualification if the match has already started.",
+      "The team captain is the main contact for announcements, score checks and complaints.",
+      "B. Match Format",
+      "The tournament will be conducted online using the game mode and map announced by the organizers.",
+      "Match dates, reporting times, room details and passwords will be shared with registered participants through official communication channels.",
+      "Participants must join the room before the scheduled start time.",
+      "The match format, number of rounds and qualification criteria will be announced before the tournament begins.",
+      "C. Fair Play and Prohibited Activities",
+      "The use of hacks, cheats, scripts, modified game clients, unauthorized third-party tools, or exploits is strictly prohibited.",
+      "Teaming or collusion with opposing players is not permitted in solo matches.",
+      "Intentional exploitation of game bugs to gain an unfair advantage is prohibited.",
+      "Participants must not impersonate other players or share accounts during the competition.",
+      "Abusive language, harassment, threats, and discriminatory behaviour will not be tolerated.",
+      "D. Scoring and Ranking",
+      "Rankings will be based on the announced combination of placement points and elimination points.",
+      "The scoring table will be shared before the first match.",
+      "In case of a tie, the organizing committee will apply the pre-announced tie-breaker criteria, such as total eliminations and best match placement.",
+      "Screenshots, match results, and available in-game records may be used to verify results.",
+      "The organizing committee's decision on scoring disputes will be final, subject to the published rules.",
+      "E. Connectivity and Technical Issues",
+      "Participants are responsible for ensuring a stable internet connection and a properly functioning device.",
+      "Players should update the game and test their connection before the scheduled match.",
+      "A player who disconnects due to an individual network or device issue may not automatically receive a rematch.",
+      "Rematches or pauses due to widespread technical failures will be decided by the organizers based on the circumstances.",
+      "F. Disqualification Criteria",
+      "A participant or team may be disqualified for:",
+      "Using cheats, hacks, or unauthorized software.",
+      "Providing false registration details or impersonating another player.",
+      "Deliberately manipulating match outcomes or engaging in prohibited collusion.",
+      "Abusing, threatening, or harassing participants or officials.",
+      "Repeatedly violating match instructions or refusing to follow the published rules.",
+      "Submitting fabricated evidence or attempting to manipulate match results.",
+      "Note: The selected game version, mode, room options and tournament settings should be checked for availability before the event. Also, the decision taken by the organizing committee will be final.",
     ],
     coordinators: [
       { name: "DR. AKHIL KAUSHIK", role: "ASSISTANT PROFESSOR", phone: "+91 94169 10303" },
-      { name: "MR. AJIT SINGH", role: "ASSISTANT PROFESSOR", phone: "+91 " }
+      { name: "MR. AJIT SINGH", role: "ASSISTANT PROFESSOR", phone: "+91 98960 49088" }
     ]
   },
   {
@@ -501,17 +565,23 @@ const EVENTS_DATA = [
     badgeLabel: "College • Generative Tech",
     icon: "fa-wand-magic-sparkles",
     color: "#00f2fe",
-    summary: "Harness modern Generative AI & 3D modeling! Engineer optimal multi-modal prompts, generate high-detail 3D geometry / structural designs, and see live digital manufacturing and additive slicing. Detailed software tools, workstation allocation, and theme prompts: Coming Soon.",
+    summary: "Choose Your Design. Print It Live. Wear Your Creativity! ---T-Shirts, Sweat-Shirts and Hoodies",
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "AC Lab Fashion Department",
     prizes: "Coming Soon",
     rounds: [
       "",
     ],
     rules: [
-      ""
+      "Participation: Interested participants must register at the designated event counter.",
+      "Design Selection: Participants must select a design from the gallery provided by the organising team. Designs will be available on a first-come, first-served basis. The design gallery and link will be available by 10th November ,2026",
+      "Apparel & Printing: Printing will be carried out on the day of Tech-Fest. Apparel options will be subject to availability and fabric suitability.",
+      "Costing: The estimated cost will be ₹550 per item.",
+      "Design Approval: Participants must confirm their selected design, print size and placement before printing. Changes after printing begins will not normally be permitted.",
+      "Safety & Discipline: Participants must follow all instructions issued by the event coordinators and must not operate printing equipment without authorisation.",
+      "General Conditions: Printing is subject to the availability of materials, equipment and time. The organising team reserves the right to reject unsuitable designs and take necessary decisions for the smooth conduct of the event.",
     ],
     coordinators: [
       { name: "DR. AMANDEEP KAUR", role: "ASSISTANT PROFESSOR,HOD OF FAE", phone: "+91 89014 55383" },
@@ -520,23 +590,33 @@ const EVENTS_DATA = [
   },
   {
     id: "clg-nukkad-natak",
-    title: "Nukkad Natak",
+    title: "Nukkad Natak “Let the Streets Speak, Let the Society Change!”",
     category: "college",
     subCategory: "cultural",
     badgeLabel: "College • Dramatic Arts",
     icon: "fa-masks-theater",
     color: "#f59e0b",
-    summary: "Roar on the street circle! Deliver hard-hitting satire, intense dholak beats, and thought-provoking drama addressing tech addiction, cybercrime, and social evolution in an acoustic circle arena. Detailed circle performance order, reporting slots, and acoustic sound guidelines: Coming Soon.",
+    summary: "Nukkad Junction is a vibrant street play competition that provides a platform for students to showcase their acting and performance skills. Participants are encouraged to create engaging, meaningful, and entertaining performances that communicate a message or story effectively. No vulgarity, obscenity, political, or religious agendas will be tolerated-this event celebrates pure performance and creativity on stage.",
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "In Front of IT Block",
     prizes: "Coming Soon",
     rounds: [
       "",
     ],
     rules: [
-      ""
+      "Each team can have a maximum of 10 participants.",
+      "The duration of the performance should be between 5 to 7 minutes.",
+      "Participants must ensure that all content is original and appropriate for all audiences.",
+      "Use of vulgar language, obscene gestures, political or religious content will lead to immediate disqualification.",
+      "Props and minimal stage setup are allowed, but participants must ensure quick setup and no damage to the venue.",
+      "All participants must report at least 60 minutes before their scheduled performance time.",
+      "Judges’ decision will be final and binding, and no objections will be entertained.",
+      "Teams are responsible for their costumes, props, and belongings. The organizing committee will not be responsible for any loss or damage.",
+      "Participants must maintain discipline and respect towards other teams, judges, and audience members.",
+      "Further details regarding rounds, judging criteria, or special instructions will be announced on the day of the event.",
+      "Who can participate: All Students",
     ],
     coordinators: [
       { name: "DR. GUNJAN BHAYANA", role: "ASSISTANT PROFESSOR", phone: "+91 98178 31001" },
@@ -551,17 +631,17 @@ const EVENTS_DATA = [
     badgeLabel: "College • Cultural",
     icon: "fa-utensils",
     color: "#ff9f43",
-    summary: "Showcase your culinary creativity, entrepreneurial spirit, and food presentation skills! Set up attractive stalls featuring regional delicacies, innovative street snacks, beverages, and desserts. Stalls are evaluated on hygiene, flavor, creative branding, and sales strategy. Detailed stall dimensions, power/water points, and cooking guidelines: Coming Soon.",
+    summary: "Food stalls will provide students with an exciting opportunity to showcase their culinary skills, creativity, entrepreneurial spirit, and teamwork by preparing and selling a variety of delicious food items. Interested students can participate by registering their stalls with a registration fee of ₹300 per stall. This activity aims to promote innovation, self-confidence, business skills, and a spirit of entrepreneurship among students.",
     eligibility: "Coming Soon",
     teamSize: "Coming Soon",
     timing: "Coming Soon",
-    venue: "Coming Soon",
+    venue: "In Front of Physics Lab",
     prizes: "Coming Soon",
     rounds: [
       "",
     ],
     rules: [
-      ""
+      "Interested students can participate by registering their stalls with a registration fee of ₹300 per stall.",
     ],
     coordinators: [
       { name: "DR. CHARU MANI", role: "ASSISTANT PROFESSOR", phone: "+91 79889 63546" },
