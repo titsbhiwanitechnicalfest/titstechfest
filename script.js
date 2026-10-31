@@ -588,6 +588,187 @@ const EVENTS_DATA = [
       { name: "MS NISHA", role: "ASSISTANT PROFESSOR", phone: "+91 90532 14992" }
     ]
   },
+
+  // --- COLLEGE EVENTS: CULTURAL & PERFORMING ARTS ---
+  {
+    id: "clg-english-poetry",
+    title: "English Poetry",
+    category: "college",
+    subCategory: "cultural",
+    badgeLabel: "College • Cultural",
+    icon: "fa-book-open",
+    color: "#38ef7d",
+    summary: "Captivate the audience with eloquent verses, lyrical cadence, and evocative poetic recitation. Deliver original compositions or celebrate classical and contemporary English literature with poise, intonation, and emotional depth.",
+    eligibility: "Open to all College / University Students",
+    teamSize: "Solo (1 Participant)",
+    timing: "Coming Soon",
+    venue: "Auditorium",
+    prizes: "Coming Soon",
+    rounds: [
+      "",
+    ],
+    rules: [
+      "The competition is open to all bona fide college and university students (undergraduate & postgraduate).",
+      "Valid College Student ID card is mandatory for verification at the registration desk.",
+      "Solo participation only (1 participant per entry).",
+      "Participants must report at the venue by 09:00 AM.",
+      "Language of recitation must be English only.",
+      "Time limit: 3 to 4 minutes. A warning bell will be given at 3 minutes.",
+      "Poetry may be self-composed or from celebrated poets. Original self-composed poems are highly encouraged and will carry special weightage.",
+      "Vulgarity, defamatory remarks, obscenity, or political/religious bias are strictly prohibited and will lead to immediate disqualification.",
+      "No musical instruments or recorded background tracks are permitted during recitation.",
+      "Discipline, decorum, and stage etiquette must be maintained at all times.",
+      "The decision of the panel of judges will be final and binding.",
+      "Judging Criteria: Content & Originality, Voice Modulation & Diction, Emotional Expression & Delivery, and Overall Stage Presence."
+    ],
+    coordinators: [
+      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
+      { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
+    ]
+  },
+  {
+    id: "clg-hindi-poetry",
+    title: "Hindi Poetry",
+    category: "college",
+    subCategory: "cultural",
+    badgeLabel: "College • Cultural",
+    icon: "fa-feather-pointed",
+    color: "#e056fd",
+    summary: "Express emotions, patriotic fervor, literary rhythm, and artistic storytelling through Hindi poetry recitation (काव्य पाठ). Present original compositions or celebrate classical works with expressive modulation, diction, and passion.",
+    eligibility: "Open to all College / University Students",
+    teamSize: "Solo (1 Participant)",
+    timing: "Coming Soon",
+    venue: "Auditorium",
+    prizes: "Coming Soon",
+    rounds: [
+      "",
+    ],
+    rules: [
+      "The competition is open to all bona fide college and university students (undergraduate & postgraduate).",
+      "Valid College Student ID card is mandatory for verification at the registration desk.",
+      "Solo participation only (1 participant per entry).",
+      "Participants must report at the venue by 09:00 AM.",
+      "Language of recitation must be Hindi only (काव्य पाठ / कविता पाठ).",
+      "Time limit: 3 to 4 minutes. A warning bell will sound at 3 minutes.",
+      "Poetry can be self-composed or recitation of renowned poets. Self-composed poetry will receive special appreciation and scoring.",
+      "Vulgarity, offensive language, or politically sensitive/communal content is strictly prohibited.",
+      "Recitation must be live on stage; reading directly from paper or mobile without eye contact is discouraged.",
+      "Participants must maintain discipline and decorum throughout the session.",
+      "The decision of the judges will be final and binding on all participants.",
+      "Judging Criteria: Content & Creativity (विषय एवं रचना), Expression & Delivery (भाव एवं प्रस्तुति), Pronunciation & Voice Modulation (उच्चारण एवं स्पष्टता), and Overall Impact."
+    ],
+    coordinators: [
+      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
+      { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
+    ]
+  },
+  {
+    id: "clg-mono-acting",
+    title: "Mono Acting",
+    category: "college",
+    subCategory: "cultural",
+    badgeLabel: "College • Cultural",
+    icon: "fa-masks-theater",
+    color: "#ff7675",
+    summary: "Command the stage as a solo performer! Portray impactful characters, dramatic expressions, and gripping theatrical dialogues. A true test of voice modulation, emotional depth, stage presence, and theatrical charisma.",
+    eligibility: "Open to all College / University Students",
+    teamSize: "Solo (1 Participant)",
+    timing: "Coming Soon",
+    venue: "Auditorium",
+    prizes: "Coming Soon",
+    rounds: [
+      "",
+    ],
+    rules: [
+      "Open to all undergraduate and postgraduate students from recognized colleges and universities.",
+      "College Student ID card is mandatory at the time of registration and performance.",
+      "Solo performance only (single participant enacting single or multiple characters).",
+      "Performance can be in English, Hindi, or bilingual.",
+      "Time limit: 4 to 5 minutes (including stage setup and clearance). Exceeding the time limit will result in negative marking.",
+      "Participants must perform their act live on stage.",
+      "Minimal hand props and simple costumes are allowed. Dangerous props (fire, water, sharp objects) are strictly banned.",
+      "Vulgarity, obscenity, defamation, abusive dialogues, or political/religious controversies are strictly prohibited.",
+      "Background music (if needed) must be submitted on a USB/Pen Drive (MP3 format) to the audio console prior to the event.",
+      "Participants must uphold strict discipline, professional ethics, and sportsmanship.",
+      "The decision of the judges will be final and conclusive.",
+      "Judging Criteria: Acting Technique & Expressions, Voice Modulation & Dialogue Delivery, Characterization & Storyline, and Overall Stage Presence."
+    ],
+    coordinators: [
+      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
+      { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
+    ]
+  },
+  {
+    id: "clg-solo-dance",
+    title: "Solo Dance (Folk and Western)",
+    category: "college",
+    subCategory: "cultural",
+    badgeLabel: "College • Cultural",
+    icon: "fa-person-walking",
+    color: "#f7b731",
+    summary: "Step into the spotlight and set the stage ablaze with rhythm, agility, and artistic grace! Open to both Indian Folk dance styles (Haryanvi, Rajasthani, Bhangra, Lavani, Garba, etc.) and Western dance styles (Hip-Hop, Contemporary, Freestyle, Jazz, Popping). Showcase technical mastery, vibrant expressions, and electrifying stage charisma.",
+    eligibility: "Open to all College / University Students",
+    teamSize: "Solo (1 Participant)",
+    timing: "Coming Soon",
+    venue: "Auditorium",
+    prizes: "Coming Soon",
+    rounds: [
+      "",
+    ],
+    rules: [
+      "Open to all bona fide undergraduate and postgraduate students of recognized colleges/universities.",
+      "Valid College Student ID card is mandatory for entry and verification.",
+      "Solo participation only (1 performer).",
+      "Dance Styles Permitted: Folk Dance (Indian regional folk traditions) OR Western Dance (Hip-Hop, Contemporary, Freestyle, Jazz, Popping, etc.).",
+      "Time limit: 3 to 4 minutes per participant. Exceeding the time limit will attract a penalty.",
+      "Music track must be provided on a USB/Pen Drive in high-quality MP3 format to the sound desk at least 45 minutes prior to the event.",
+      "Costumes must be decent, artistic, and appropriate for the chosen dance style; authentic attire is required for folk dances.",
+      "Vulgarity, suggestive movements, offensive songs/lyrics, or inappropriate attire are strictly prohibited and will lead to immediate disqualification.",
+      "Handheld props are allowed; props involving fire, liquids, smoke, colors, or hazardous elements are strictly prohibited.",
+      "Participants must report on time and maintain discipline back-stage.",
+      "The judges' decision will be final, binding, and uncontestable.",
+      "Judging Criteria: Dance Technique & Choreography, Rhythm & Timing, Expressions & Energy, Costume & Authenticity, and Overall Presentation."
+    ],
+    coordinators: [
+      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
+      { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
+    ]
+  },
+  {
+    id: "clg-group-dance",
+    title: "Group Dance (Folk and Western)",
+    category: "college",
+    subCategory: "cultural",
+    badgeLabel: "College • Cultural",
+    icon: "fa-people-group",
+    color: "#ff2a85",
+    summary: "Unite in rhythm, coordination, and spectacle in the ultimate collegiate dance battle! Teams may showcase the rich, celebratory spirit of Indian Folk traditions (Bhangra, Gidda, Haryanvi, Garba, etc.) or high-octane Western choreography (Hip-Hop, Contemporary, Bollywood-Western fusion, Urban). Deliver synchronized power, creative formations, and explosive stage presence.",
+    eligibility: "Open to all College / University Students",
+    teamSize: "4 to 10 Members",
+    timing: "Coming Soon",
+    venue: "Auditorium",
+    prizes: "Coming Soon",
+    rounds: [
+      "",
+    ],
+    rules: [
+      "Open to all undergraduate and postgraduate students from recognized colleges and universities.",
+      "Each team must consist of 4 to 10 members from the same institution; valid College ID cards are mandatory for all members.",
+      "Dance Categories: Indian Folk Dance (traditional regional dances) OR Western / Urban Dance (Hip-Hop, Contemporary, Fusion, etc.).",
+      "Time limit: 4 to 6 minutes (including stage setup and exit).",
+      "Teams must submit their music track in MP3 format on a USB/Pen Drive to the sound console at least 1 hour before the competition.",
+      "Synchronization, group coordination, formation transitions, and energy will carry major evaluation weightage.",
+      "Costumes and props must be decent, aesthetic, and relevant to the chosen dance theme.",
+      "Vulgar songs, inappropriate movements, or hazardous props (fire, water, sharp objects, glass, powders) are strictly prohibited.",
+      "Teams must report strictly on time and adhere to event scheduling instructions.",
+      "The decision of the jury panel will be final and binding.",
+      "Judging Criteria: Choreography & Synchronization, Rhythm & Execution, Formations & Transitions, Costume & Aesthetic Appeal, and Overall Stage Impact."
+    ],
+    coordinators: [
+      { name: "MS. LIMA PATTANAYAK", role: "ASSISTANT PROFESSOR", phone: "+91 98967 96153" },
+      { name: "Dr. JASMEET KAUR GHUMAN", role: "ASSISTANT PROFESSOR", phone: "+91 78984 68792" }
+    ]
+  },
   {
     id: "clg-nukkad-natak",
     title: "Nukkad Natak “Let the Streets Speak, Let the Society Change!”",
